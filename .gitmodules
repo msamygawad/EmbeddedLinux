@@ -1,0 +1,6 @@
+[submodule "C1_Assign/assignment-1-msamygawad"]
+	path = C1_Assign/assignment-1-msamygawad
+	url = git@github.com:cu-ecen-aeld/assignment-1-msamygawad.git
+[submodule "C1_Assign/assignment-2-msamygawad"]
+	path = C1_Assign/assignment-2-msamygawad
+	url = git@github.com:cu-ecen-aeld/assignment-2-msamygawad.git
