@@ -1,0 +1,706 @@
+[2023-06-07 10:34:46Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:34:46Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-07 10:34:46Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-07 10:34:46Z INFO Listener] Version: 2.304.0
+[2023-06-07 10:34:46Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 10:34:46Z INFO Listener] Culture: en-US
+[2023-06-07 10:34:46Z INFO Listener] UI Culture: en-US
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO CommandLineParser] Parse
+[2023-06-07 10:34:46Z INFO CommandLineParser] Parsing 1 args
+[2023-06-07 10:34:46Z INFO CommandLineParser] parsing argument
+[2023-06-07 10:34:46Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 10:34:46Z INFO CommandLineParser] Adding Command: run
+[2023-06-07 10:34:46Z INFO Listener] Arguments parsed
+[2023-06-07 10:34:46Z INFO Runner] ExecuteCommand
+[2023-06-07 10:34:46Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Command 'remove': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-06-07 10:34:46Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 10:34:46Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 10:34:46Z INFO ConfigurationStore] Read setting file: 299 chars
+[2023-06-07 10:34:46Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 10:34:46Z INFO CommandSettings] Command 'run': 'True'
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 10:34:46Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 10:34:46Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-06-07 10:34:46Z INFO Runner] Set runner startup type - Manual
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 10:34:46Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 10:34:46Z INFO Runner] RunAsync
+[2023-06-07 10:34:46Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 10:34:46Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 10:34:46Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 10:34:46Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 10:34:46Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "msamy",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad",
+  "WorkFolder": "_work"
+}
+[2023-06-07 10:34:46Z INFO MessageListener] Loading Credentials
+[2023-06-07 10:34:46Z INFO ConfigurationStore] HasCredentials()
+[2023-06-07 10:34:46Z INFO ConfigurationStore] stored True
+[2023-06-07 10:34:46Z INFO CredentialManager] GetCredentialProvider
+[2023-06-07 10:34:46Z INFO CredentialManager] Creating type OAuth
+[2023-06-07 10:34:46Z INFO CredentialManager] Creating credential type: OAuth
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:46Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:34:46Z INFO HostContext] Well known config file 'RSACredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams'
+[2023-06-07 10:34:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:34:46Z INFO MessageListener] Attempt to create session.
+[2023-06-07 10:34:46Z INFO MessageListener] Connecting to the Runner Server...
+[2023-06-07 10:34:46Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 10:34:46Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-07 10:34:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 10:34:46Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 10:34:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 10:34:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 10:34:46Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 10:34:46Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 10:34:46Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 10:34:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 10:34:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 10:34:47Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 10:34:47Z INFO MessageListener] VssConnection created
+[2023-06-07 10:34:47Z INFO Terminal] WRITE LINE: 
+[2023-06-07 10:34:47Z INFO Terminal] WRITE LINE: 
+[2023-06-07 10:34:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:34:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:34:50Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 10:34:50Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2.3538786 seconds)
+[2023-06-07 10:34:50Z INFO MessageListener] Session created.
+[2023-06-07 10:34:50Z INFO Terminal] WRITE LINE: Current runner version: '2.304.0'
+[2023-06-07 10:34:50Z INFO Terminal] WRITE LINE: 2023-06-07 10:34:50Z: Listening for Jobs
+[2023-06-07 10:34:50Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-06-07 10:34:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:34:54Z INFO MessageListener] Message '1' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:34:54Z INFO Runner] Received job message of length 23106 from service, with hash 'f351549205dbc03f2379d33b30d9b4ece33f4b2369c98d108368ef17ba53defa'
+[2023-06-07 10:34:54Z INFO JobDispatcher] Job request 11 for plan cdcb3f66-bdf8-4ba4-bd60-07873884220e job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 10:34:54Z INFO JobDispatcher] Pull OrchestrationId cdcb3f66-bdf8-4ba4-bd60-07873884220e.unit-test.__default from JWT claims
+[2023-06-07 10:34:54Z INFO Terminal] WRITE LINE: 2023-06-07 10:34:54Z: Running job: unit-test
+[2023-06-07 10:34:54Z INFO JobDispatcher] Start renew job request 11 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:34:54Z INFO JobDispatcher] Successfully renew job request 11, job is valid till 6/7/2023 10:44:54 AM
+[2023-06-07 10:34:54Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 105 108'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:34:54Z INFO ProcessInvokerWrapper] Process started with process id 56674, waiting for process exit.
+[2023-06-07 10:34:54Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:34:54Z INFO ProcessChannel] Sending message of length 23106, with hash 'f351549205dbc03f2379d33b30d9b4ece33f4b2369c98d108368ef17ba53defa'
+[2023-06-07 10:34:54Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:34:54Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:35:55Z INFO JobDispatcher] Successfully renew job request 11, job is valid till 6/7/2023 10:45:55 AM
+[2023-06-07 10:36:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:36:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:36:42Z INFO ProcessInvokerWrapper] Finished process 56674 with exit code 102, and elapsed time 00:01:47.7205700.
+[2023-06-07 10:36:42Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 10:36:42Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 10:36:42Z INFO Terminal] WRITE LINE: 2023-06-07 10:36:42Z: Job unit-test completed with result: Failed
+[2023-06-07 10:36:42Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:36:42Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 11.
+[2023-06-07 10:36:42Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:36:42Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 10:36:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:36:44Z INFO MessageListener] Message '2' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:36:44Z INFO Runner] Received job message of length 23108 from service, with hash 'fa5faa468948c8e2eb13b088b6186d089a2d78aca7d933f2e4cbd0eda95a8455'
+[2023-06-07 10:36:44Z INFO JobDispatcher] Job request 12 for plan cdcb3f66-bdf8-4ba4-bd60-07873884220e job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 10:36:44Z INFO JobDispatcher] Pull OrchestrationId cdcb3f66-bdf8-4ba4-bd60-07873884220e.full-test.__default from JWT claims
+[2023-06-07 10:36:44Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 10:36:44Z INFO Terminal] WRITE LINE: 2023-06-07 10:36:44Z: Running job: full-test
+[2023-06-07 10:36:44Z INFO JobDispatcher] Start renew job request 12 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:36:44Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 6/7/2023 10:46:44 AM
+[2023-06-07 10:36:44Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 90 115'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:36:44Z INFO ProcessInvokerWrapper] Process started with process id 57435, waiting for process exit.
+[2023-06-07 10:36:44Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:36:44Z INFO ProcessChannel] Sending message of length 23108, with hash 'fa5faa468948c8e2eb13b088b6186d089a2d78aca7d933f2e4cbd0eda95a8455'
+[2023-06-07 10:36:44Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:36:44Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:36:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:36:58Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:36:58Z INFO ProcessInvokerWrapper] Finished process 57435 with exit code 102, and elapsed time 00:00:14.0431464.
+[2023-06-07 10:36:58Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 10:36:58Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 10:36:58Z INFO Terminal] WRITE LINE: 2023-06-07 10:36:58Z: Job full-test completed with result: Failed
+[2023-06-07 10:36:58Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:36:58Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 12.
+[2023-06-07 10:36:58Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:36:58Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 10:42:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:42:45Z INFO MessageListener] Message '3' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:42:45Z INFO Runner] Received job message of length 23108 from service, with hash '4fd77925291fa297cbf2b7c1b6b281dec1946044747deaf59542bf9f91c2c534'
+[2023-06-07 10:42:45Z INFO JobDispatcher] Job request 13 for plan bf446034-ffdf-421a-b988-f129b9063bb2 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 10:42:45Z INFO JobDispatcher] Pull OrchestrationId bf446034-ffdf-421a-b988-f129b9063bb2.full-test.__default from JWT claims
+[2023-06-07 10:42:45Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 10:42:45Z INFO Terminal] WRITE LINE: 2023-06-07 10:42:45Z: Running job: full-test
+[2023-06-07 10:42:45Z INFO JobDispatcher] Start renew job request 13 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:42:47Z INFO JobDispatcher] Successfully renew job request 13, job is valid till 6/7/2023 10:52:47 AM
+[2023-06-07 10:42:47Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 115'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:42:47Z INFO ProcessInvokerWrapper] Process started with process id 58188, waiting for process exit.
+[2023-06-07 10:42:47Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:42:47Z INFO ProcessChannel] Sending message of length 23108, with hash '4fd77925291fa297cbf2b7c1b6b281dec1946044747deaf59542bf9f91c2c534'
+[2023-06-07 10:42:47Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:42:47Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:43:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:03Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:03Z INFO ProcessInvokerWrapper] Finished process 58188 with exit code 102, and elapsed time 00:00:16.7151448.
+[2023-06-07 10:43:03Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 10:43:03Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 10:43:03Z INFO Terminal] WRITE LINE: 2023-06-07 10:43:03Z: Job full-test completed with result: Failed
+[2023-06-07 10:43:03Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:43:03Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 13.
+[2023-06-07 10:43:03Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:43:03Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 10:43:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:43:06Z INFO MessageListener] Message '4' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:43:06Z INFO Runner] Received job message of length 23106 from service, with hash 'cdbe30e7a78eebf7e7366a7e0f4cf8e4cc3eed8c25cfd94123f60fa1aba2f7cd'
+[2023-06-07 10:43:06Z INFO JobDispatcher] Job request 14 for plan bf446034-ffdf-421a-b988-f129b9063bb2 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 10:43:06Z INFO JobDispatcher] Pull OrchestrationId bf446034-ffdf-421a-b988-f129b9063bb2.unit-test.__default from JWT claims
+[2023-06-07 10:43:06Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 10:43:06Z INFO Terminal] WRITE LINE: 2023-06-07 10:43:06Z: Running job: unit-test
+[2023-06-07 10:43:06Z INFO JobDispatcher] Start renew job request 14 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:43:06Z INFO JobDispatcher] Successfully renew job request 14, job is valid till 6/7/2023 10:53:06 AM
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 115'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:43:06Z INFO ProcessInvokerWrapper] Process started with process id 58903, waiting for process exit.
+[2023-06-07 10:43:06Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:43:06Z INFO ProcessChannel] Sending message of length 23106, with hash 'cdbe30e7a78eebf7e7366a7e0f4cf8e4cc3eed8c25cfd94123f60fa1aba2f7cd'
+[2023-06-07 10:43:06Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:43:06Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:43:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:17Z INFO ProcessInvokerWrapper] Finished process 58903 with exit code 102, and elapsed time 00:00:11.1901061.
+[2023-06-07 10:43:17Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 10:43:17Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 10:43:17Z INFO Terminal] WRITE LINE: 2023-06-07 10:43:17Z: Job unit-test completed with result: Failed
+[2023-06-07 10:43:17Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:43:17Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 14.
+[2023-06-07 10:43:17Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:43:17Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 10:58:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:58:01Z INFO MessageListener] Message '5' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:58:01Z INFO Runner] Received job message of length 23100 from service, with hash 'a6fd7202f6ae689767ca946e022a1e0ab80b694cdb49ae821086291821db81b8'
+[2023-06-07 10:58:01Z INFO JobDispatcher] Job request 15 for plan 7d63510f-f991-4d94-a6b7-6a1de474d467 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 10:58:01Z INFO JobDispatcher] Pull OrchestrationId 7d63510f-f991-4d94-a6b7-6a1de474d467.unit-test.__default from JWT claims
+[2023-06-07 10:58:01Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 10:58:01Z INFO Terminal] WRITE LINE: 2023-06-07 10:58:01Z: Running job: unit-test
+[2023-06-07 10:58:01Z INFO JobDispatcher] Start renew job request 15 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:58:02Z INFO JobDispatcher] Successfully renew job request 15, job is valid till 6/7/2023 11:08:02 AM
+[2023-06-07 10:58:02Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 115'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:58:02Z INFO ProcessInvokerWrapper] Process started with process id 60126, waiting for process exit.
+[2023-06-07 10:58:02Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:58:02Z INFO ProcessChannel] Sending message of length 23100, with hash 'a6fd7202f6ae689767ca946e022a1e0ab80b694cdb49ae821086291821db81b8'
+[2023-06-07 10:58:02Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:58:02Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:58:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:58:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:58:18Z INFO ProcessInvokerWrapper] Finished process 60126 with exit code 102, and elapsed time 00:00:16.2545793.
+[2023-06-07 10:58:18Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 10:58:18Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 10:58:18Z INFO Terminal] WRITE LINE: 2023-06-07 10:58:18Z: Job unit-test completed with result: Failed
+[2023-06-07 10:58:18Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 10:58:18Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 15.
+[2023-06-07 10:58:18Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:58:18Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 10:58:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 10:58:22Z INFO MessageListener] Message '6' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 10:58:22Z INFO Runner] Received job message of length 23102 from service, with hash '8147e2421ad4695df86532024f83ff4d1ef328dd73e58d55702f71ff9e132aa5'
+[2023-06-07 10:58:22Z INFO JobDispatcher] Job request 16 for plan 7d63510f-f991-4d94-a6b7-6a1de474d467 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 10:58:22Z INFO JobDispatcher] Pull OrchestrationId 7d63510f-f991-4d94-a6b7-6a1de474d467.full-test.__default from JWT claims
+[2023-06-07 10:58:22Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 10:58:22Z INFO Terminal] WRITE LINE: 2023-06-07 10:58:22Z: Running job: full-test
+[2023-06-07 10:58:22Z INFO JobDispatcher] Start renew job request 16 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:58:22Z INFO JobDispatcher] Successfully renew job request 16, job is valid till 6/7/2023 11:08:22 AM
+[2023-06-07 10:58:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 115'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 10:58:22Z INFO ProcessInvokerWrapper] Process started with process id 60828, waiting for process exit.
+[2023-06-07 10:58:22Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:58:22Z INFO ProcessChannel] Sending message of length 23102, with hash '8147e2421ad4695df86532024f83ff4d1ef328dd73e58d55702f71ff9e132aa5'
+[2023-06-07 10:58:22Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 10:58:22Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 10:58:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:58:43Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:58:43Z INFO ProcessInvokerWrapper] Finished process 60828 with exit code 102, and elapsed time 00:00:20.6947520.
+[2023-06-07 10:58:43Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 10:58:43Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 10:58:43Z INFO Terminal] WRITE LINE: 2023-06-07 10:58:43Z: Job full-test completed with result: Failed
+[2023-06-07 10:58:43Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 10:58:43Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 16.
+[2023-06-07 10:58:43Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 10:58:43Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:08:02Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:08:02Z INFO MessageListener] Message '7' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:08:02Z INFO Runner] Received job message of length 22638 from service, with hash '1c210be370fd9ae61646e5003e783856ba1b50d1b0214eb62501eb1a9dbfe0ba'
+[2023-06-07 11:08:02Z INFO JobDispatcher] Job request 17 for plan d29d4534-cb4d-4e34-a199-a9192452a936 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 11:08:02Z INFO JobDispatcher] Pull OrchestrationId d29d4534-cb4d-4e34-a199-a9192452a936.full-test.__default from JWT claims
+[2023-06-07 11:08:02Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 11:08:02Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:02Z: Running job: full-test
+[2023-06-07 11:08:02Z INFO JobDispatcher] Start renew job request 17 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:08:03Z INFO JobDispatcher] Successfully renew job request 17, job is valid till 6/7/2023 11:18:03 AM
+[2023-06-07 11:08:03Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:08:03Z INFO ProcessInvokerWrapper] Process started with process id 61790, waiting for process exit.
+[2023-06-07 11:08:03Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:08:03Z INFO ProcessChannel] Sending message of length 22638, with hash '1c210be370fd9ae61646e5003e783856ba1b50d1b0214eb62501eb1a9dbfe0ba'
+[2023-06-07 11:08:03Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:08:03Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:08:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:14Z INFO ProcessInvokerWrapper] Finished process 61790 with exit code 102, and elapsed time 00:00:10.9477245.
+[2023-06-07 11:08:14Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 11:08:14Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 11:08:14Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:14Z: Job full-test completed with result: Failed
+[2023-06-07 11:08:14Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:08:14Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 17.
+[2023-06-07 11:08:14Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:08:14Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:08:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:08:16Z INFO MessageListener] Message '8' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:08:16Z INFO Runner] Received job message of length 22636 from service, with hash 'd32a2c7381e2b079995d108dbb20098d555ef1fefa4d2247daaed512aa8a3d44'
+[2023-06-07 11:08:16Z INFO JobDispatcher] Job request 18 for plan d29d4534-cb4d-4e34-a199-a9192452a936 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 11:08:16Z INFO JobDispatcher] Pull OrchestrationId d29d4534-cb4d-4e34-a199-a9192452a936.unit-test.__default from JWT claims
+[2023-06-07 11:08:16Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 11:08:16Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:16Z: Running job: unit-test
+[2023-06-07 11:08:16Z INFO JobDispatcher] Start renew job request 18 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:16Z INFO JobDispatcher] Successfully renew job request 18, job is valid till 6/7/2023 11:18:16 AM
+[2023-06-07 11:08:16Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:08:16Z INFO ProcessInvokerWrapper] Process started with process id 62470, waiting for process exit.
+[2023-06-07 11:08:16Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:16Z INFO ProcessChannel] Sending message of length 22636, with hash 'd32a2c7381e2b079995d108dbb20098d555ef1fefa4d2247daaed512aa8a3d44'
+[2023-06-07 11:08:16Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:08:16Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:08:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:28Z INFO ProcessInvokerWrapper] Finished process 62470 with exit code 102, and elapsed time 00:00:12.3619547.
+[2023-06-07 11:08:28Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 11:08:28Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 11:08:28Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:28Z: Job unit-test completed with result: Failed
+[2023-06-07 11:08:28Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:28Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 18.
+[2023-06-07 11:08:28Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:08:28Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:08:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:08:40Z INFO MessageListener] Message '9' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:08:40Z INFO Runner] Received job message of length 22427 from service, with hash 'a664ab059d6415b6016d0040e18bd599fdf08205f22ebb7b7c7bc165f9aa68f3'
+[2023-06-07 11:08:40Z INFO JobDispatcher] Job request 19 for plan 73aecd1b-a87b-4bc5-89d3-e264440e6bde job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 11:08:40Z INFO JobDispatcher] Pull OrchestrationId 73aecd1b-a87b-4bc5-89d3-e264440e6bde.unit-test.__default from JWT claims
+[2023-06-07 11:08:40Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 11:08:40Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:40Z: Running job: unit-test
+[2023-06-07 11:08:40Z INFO JobDispatcher] Start renew job request 19 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:40Z INFO JobDispatcher] Successfully renew job request 19, job is valid till 6/7/2023 11:18:40 AM
+[2023-06-07 11:08:40Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:08:40Z INFO ProcessInvokerWrapper] Process started with process id 63145, waiting for process exit.
+[2023-06-07 11:08:40Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:40Z INFO ProcessChannel] Sending message of length 22427, with hash 'a664ab059d6415b6016d0040e18bd599fdf08205f22ebb7b7c7bc165f9aa68f3'
+[2023-06-07 11:08:40Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:08:40Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:08:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:08:55Z INFO ProcessInvokerWrapper] Finished process 63145 with exit code 102, and elapsed time 00:00:14.8921303.
+[2023-06-07 11:08:55Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 11:08:55Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 11:08:55Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:55Z: Job unit-test completed with result: Failed
+[2023-06-07 11:08:55Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:08:55Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 19.
+[2023-06-07 11:08:55Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:08:55Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:08:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:08:57Z INFO MessageListener] Message '10' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:08:57Z INFO Runner] Received job message of length 22429 from service, with hash '18936d7d27bfffa6d7d323f196e8b8a650eaa81524ceeb9df4e93520e6c6ba96'
+[2023-06-07 11:08:57Z INFO JobDispatcher] Job request 20 for plan 73aecd1b-a87b-4bc5-89d3-e264440e6bde job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 11:08:57Z INFO JobDispatcher] Pull OrchestrationId 73aecd1b-a87b-4bc5-89d3-e264440e6bde.full-test.__default from JWT claims
+[2023-06-07 11:08:57Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 11:08:57Z INFO Terminal] WRITE LINE: 2023-06-07 11:08:57Z: Running job: full-test
+[2023-06-07 11:08:57Z INFO JobDispatcher] Start renew job request 20 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:08:57Z INFO JobDispatcher] Successfully renew job request 20, job is valid till 6/7/2023 11:18:57 AM
+[2023-06-07 11:08:57Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:08:57Z INFO ProcessInvokerWrapper] Process started with process id 63824, waiting for process exit.
+[2023-06-07 11:08:57Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:08:57Z INFO ProcessChannel] Sending message of length 22429, with hash '18936d7d27bfffa6d7d323f196e8b8a650eaa81524ceeb9df4e93520e6c6ba96'
+[2023-06-07 11:08:57Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:08:57Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:09:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:09:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:09:07Z INFO ProcessInvokerWrapper] Finished process 63824 with exit code 102, and elapsed time 00:00:10.4527434.
+[2023-06-07 11:09:07Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 11:09:07Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 11:09:07Z INFO Terminal] WRITE LINE: 2023-06-07 11:09:07Z: Job full-test completed with result: Failed
+[2023-06-07 11:09:07Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:09:07Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 20.
+[2023-06-07 11:09:07Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:09:07Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:16:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:16:57Z INFO MessageListener] Message '11' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:16:57Z INFO Runner] Received job message of length 22904 from service, with hash '4ae2737562e41d6220035af620eb8cc6c4bb8b872302e2c754bc9ea417c61188'
+[2023-06-07 11:16:57Z INFO JobDispatcher] Job request 21 for plan 16772bfc-0ef4-494a-9586-a3bcdda1f3b3 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 11:16:57Z INFO JobDispatcher] Pull OrchestrationId 16772bfc-0ef4-494a-9586-a3bcdda1f3b3.unit-test.__default from JWT claims
+[2023-06-07 11:16:57Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 11:16:57Z INFO Terminal] WRITE LINE: 2023-06-07 11:16:57Z: Running job: unit-test
+[2023-06-07 11:16:57Z INFO JobDispatcher] Start renew job request 21 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:16:59Z INFO JobDispatcher] Successfully renew job request 21, job is valid till 6/7/2023 11:26:59 AM
+[2023-06-07 11:16:59Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:16:59Z INFO ProcessInvokerWrapper] Process started with process id 64722, waiting for process exit.
+[2023-06-07 11:16:59Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:16:59Z INFO ProcessChannel] Sending message of length 22904, with hash '4ae2737562e41d6220035af620eb8cc6c4bb8b872302e2c754bc9ea417c61188'
+[2023-06-07 11:16:59Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:16:59Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:17:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:17:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:17:12Z INFO ProcessInvokerWrapper] Finished process 64722 with exit code 102, and elapsed time 00:00:12.9616660.
+[2023-06-07 11:17:12Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 11:17:12Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 11:17:12Z INFO Terminal] WRITE LINE: 2023-06-07 11:17:12Z: Job unit-test completed with result: Failed
+[2023-06-07 11:17:12Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:17:12Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 21.
+[2023-06-07 11:17:12Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:17:12Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:17:14Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:17:14Z INFO MessageListener] Message '12' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:17:14Z INFO Runner] Received job message of length 22906 from service, with hash 'c7d5c768904d73761b8ebd99b9905f466c4967c197340e15a6d86aeb03e2cb6f'
+[2023-06-07 11:17:14Z INFO JobDispatcher] Job request 22 for plan 16772bfc-0ef4-494a-9586-a3bcdda1f3b3 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 11:17:14Z INFO JobDispatcher] Pull OrchestrationId 16772bfc-0ef4-494a-9586-a3bcdda1f3b3.full-test.__default from JWT claims
+[2023-06-07 11:17:14Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 11:17:14Z INFO Terminal] WRITE LINE: 2023-06-07 11:17:14Z: Running job: full-test
+[2023-06-07 11:17:14Z INFO JobDispatcher] Start renew job request 22 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:17:15Z INFO JobDispatcher] Successfully renew job request 22, job is valid till 6/7/2023 11:27:14 AM
+[2023-06-07 11:17:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:17:15Z INFO ProcessInvokerWrapper] Process started with process id 65419, waiting for process exit.
+[2023-06-07 11:17:15Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:17:15Z INFO ProcessChannel] Sending message of length 22906, with hash 'c7d5c768904d73761b8ebd99b9905f466c4967c197340e15a6d86aeb03e2cb6f'
+[2023-06-07 11:17:15Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:17:15Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:17:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:17:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:17:26Z INFO ProcessInvokerWrapper] Finished process 65419 with exit code 102, and elapsed time 00:00:11.4269363.
+[2023-06-07 11:17:26Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 11:17:26Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 11:17:26Z INFO Terminal] WRITE LINE: 2023-06-07 11:17:26Z: Job full-test completed with result: Failed
+[2023-06-07 11:17:26Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:17:26Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 22.
+[2023-06-07 11:17:26Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:17:26Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:20:27Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:20:27Z INFO MessageListener] Message '13' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:20:27Z INFO Runner] Received job message of length 23085 from service, with hash '1edf7ce9b955ecff259303d878c91fc76013797b061288456629c51b9c0a6e81'
+[2023-06-07 11:20:27Z INFO JobDispatcher] Job request 23 for plan 057580e7-984d-4107-81d7-e75b7f95966c job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 11:20:27Z INFO JobDispatcher] Pull OrchestrationId 057580e7-984d-4107-81d7-e75b7f95966c.unit-test.__default from JWT claims
+[2023-06-07 11:20:27Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 11:20:27Z INFO Terminal] WRITE LINE: 2023-06-07 11:20:27Z: Running job: unit-test
+[2023-06-07 11:20:27Z INFO JobDispatcher] Start renew job request 23 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:20:28Z INFO JobDispatcher] Successfully renew job request 23, job is valid till 6/7/2023 11:30:28 AM
+[2023-06-07 11:20:28Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:20:28Z INFO ProcessInvokerWrapper] Process started with process id 66111, waiting for process exit.
+[2023-06-07 11:20:28Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:20:28Z INFO ProcessChannel] Sending message of length 23085, with hash '1edf7ce9b955ecff259303d878c91fc76013797b061288456629c51b9c0a6e81'
+[2023-06-07 11:20:28Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:20:28Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:20:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:20:41Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:20:41Z INFO ProcessInvokerWrapper] Finished process 66111 with exit code 102, and elapsed time 00:00:12.6993093.
+[2023-06-07 11:20:41Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 11:20:41Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 11:20:41Z INFO Terminal] WRITE LINE: 2023-06-07 11:20:41Z: Job unit-test completed with result: Failed
+[2023-06-07 11:20:41Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:20:41Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 23.
+[2023-06-07 11:20:41Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:20:41Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:20:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:20:43Z INFO MessageListener] Message '14' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:20:43Z INFO Runner] Received job message of length 23087 from service, with hash '0b1cf1ecd198957b47003c4dd0eb08d00275a84ced962a972ddefe43c07cb3e1'
+[2023-06-07 11:20:43Z INFO JobDispatcher] Job request 24 for plan 057580e7-984d-4107-81d7-e75b7f95966c job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 11:20:43Z INFO JobDispatcher] Pull OrchestrationId 057580e7-984d-4107-81d7-e75b7f95966c.full-test.__default from JWT claims
+[2023-06-07 11:20:43Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 11:20:43Z INFO Terminal] WRITE LINE: 2023-06-07 11:20:43Z: Running job: full-test
+[2023-06-07 11:20:43Z INFO JobDispatcher] Start renew job request 24 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:20:43Z INFO JobDispatcher] Successfully renew job request 24, job is valid till 6/7/2023 11:30:43 AM
+[2023-06-07 11:20:43Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:20:43Z INFO ProcessInvokerWrapper] Process started with process id 66786, waiting for process exit.
+[2023-06-07 11:20:43Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:20:43Z INFO ProcessChannel] Sending message of length 23087, with hash '0b1cf1ecd198957b47003c4dd0eb08d00275a84ced962a972ddefe43c07cb3e1'
+[2023-06-07 11:20:43Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:20:43Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:21:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:21:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:21:00Z INFO ProcessInvokerWrapper] Finished process 66786 with exit code 102, and elapsed time 00:00:17.0905025.
+[2023-06-07 11:21:00Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 102
+[2023-06-07 11:21:00Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 11:21:00Z INFO Terminal] WRITE LINE: 2023-06-07 11:21:00Z: Job full-test completed with result: Failed
+[2023-06-07 11:21:00Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:21:00Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 24.
+[2023-06-07 11:21:00Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:21:00Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:29:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:29:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 11:30:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:30:13Z INFO MessageListener] Message '15' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:30:13Z INFO Runner] Received job message of length 23170 from service, with hash 'd38a3de6d54a6084aec9e735c921fe089db0c669354e34acfb5411126ad5bb45'
+[2023-06-07 11:30:13Z INFO JobDispatcher] Job request 25 for plan 92a5bd52-dbb7-47df-b5af-a965e4d8ec94 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 11:30:13Z INFO JobDispatcher] Pull OrchestrationId 92a5bd52-dbb7-47df-b5af-a965e4d8ec94.unit-test.__default from JWT claims
+[2023-06-07 11:30:13Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 11:30:13Z INFO Terminal] WRITE LINE: 2023-06-07 11:30:13Z: Running job: unit-test
+[2023-06-07 11:30:13Z INFO JobDispatcher] Start renew job request 25 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:30:14Z INFO JobDispatcher] Successfully renew job request 25, job is valid till 6/7/2023 11:40:13 AM
+[2023-06-07 11:30:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:30:14Z INFO ProcessInvokerWrapper] Process started with process id 67592, waiting for process exit.
+[2023-06-07 11:30:14Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:30:14Z INFO ProcessChannel] Sending message of length 23170, with hash 'd38a3de6d54a6084aec9e735c921fe089db0c669354e34acfb5411126ad5bb45'
+[2023-06-07 11:30:14Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:30:14Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:30:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:30:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:30:26Z INFO ProcessInvokerWrapper] Finished process 67592 with exit code 102, and elapsed time 00:00:12.1030023.
+[2023-06-07 11:30:26Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 102
+[2023-06-07 11:30:26Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Failed
+[2023-06-07 11:30:26Z INFO Terminal] WRITE LINE: 2023-06-07 11:30:26Z: Job unit-test completed with result: Failed
+[2023-06-07 11:30:26Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 11:30:26Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 25.
+[2023-06-07 11:30:26Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:30:26Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:30:28Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 11:30:28Z INFO MessageListener] Message '16' received from session '80e42df3-7948-4f1d-811a-be59c932b29e'.
+[2023-06-07 11:30:28Z INFO Runner] Received job message of length 23172 from service, with hash '2984c1c7f70e12583f2ad9877da8fad7b7c31db9ef09ca0b0ad65d1be1b39f7b'
+[2023-06-07 11:30:28Z INFO JobDispatcher] Job request 26 for plan 92a5bd52-dbb7-47df-b5af-a965e4d8ec94 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 11:30:28Z INFO JobDispatcher] Pull OrchestrationId 92a5bd52-dbb7-47df-b5af-a965e4d8ec94.full-test.__default from JWT claims
+[2023-06-07 11:30:28Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 11:30:28Z INFO Terminal] WRITE LINE: 2023-06-07 11:30:28Z: Running job: full-test
+[2023-06-07 11:30:28Z INFO JobDispatcher] Start renew job request 26 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:30:28Z INFO JobDispatcher] Successfully renew job request 26, job is valid till 6/7/2023 11:40:28 AM
+[2023-06-07 11:30:28Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 99 112'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper] Process started with process id 68267, waiting for process exit.
+[2023-06-07 11:30:28Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:30:28Z INFO ProcessChannel] Sending message of length 23172, with hash '2984c1c7f70e12583f2ad9877da8fad7b7c31db9ef09ca0b0ad65d1be1b39f7b'
+[2023-06-07 11:30:28Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 11:30:28Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 11:30:28Z INFO Terminal] WRITE LINE: Exiting...
+[2023-06-07 11:30:28Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 11:30:28Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 11:30:28Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 11:30:28Z INFO ProcessInvokerWrapper] Finished process 68267 with exit code 130, and elapsed time 00:00:00.0872241.
+[2023-06-07 11:30:28Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 130
+[2023-06-07 11:30:28Z INFO JobDispatcher] Return code 130 indicate worker encounter an unhandled exception or app crash, attach worker stdout/stderr to JobRequest result.
+[2023-06-07 11:30:28Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 11:30:29Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-06-07 11:30:29Z INFO JobDispatcher] Ensure WorkerDispather for job a047640a-23da-5e9b-1ef8-917a09b3753a run to finish, cancel any running job.
+[2023-06-07 11:30:29Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 11:30:30Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Failed
+[2023-06-07 11:30:30Z INFO Terminal] WRITE LINE: 2023-06-07 11:30:30Z: Job full-test completed with result: Failed
+[2023-06-07 11:30:30Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 11:30:30Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 26.
+[2023-06-07 11:30:30Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 11:30:30Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 11:30:30Z INFO Listener] Runner execution has finished with return code 0

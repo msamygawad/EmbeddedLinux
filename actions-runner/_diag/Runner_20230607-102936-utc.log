@@ -1,0 +1,58 @@
+[2023-06-07 10:29:36Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:29:36Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-07 10:29:36Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-07 10:29:36Z INFO Listener] Version: 2.304.0
+[2023-06-07 10:29:36Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 10:29:36Z INFO Listener] Culture: en-US
+[2023-06-07 10:29:36Z INFO Listener] UI Culture: en-US
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO CommandLineParser] Parse
+[2023-06-07 10:29:36Z INFO CommandLineParser] Parsing 2 args
+[2023-06-07 10:29:36Z INFO CommandLineParser] parsing argument
+[2023-06-07 10:29:36Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 10:29:36Z INFO CommandLineParser] Adding Command: run
+[2023-06-07 10:29:36Z INFO CommandLineParser] parsing argument
+[2023-06-07 10:29:36Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 10:29:36Z INFO CommandLineParser] arg: check
+[2023-06-07 10:29:36Z INFO Listener] Arguments parsed
+[2023-06-07 10:29:36Z INFO Runner] ExecuteCommand
+[2023-06-07 10:29:36Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:29:36Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:29:36Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 10:29:36Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 10:29:36Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 10:29:36Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 10:29:36Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 10:29:36Z INFO CommandSettings] Flag 'check': 'True'
+[2023-06-07 10:29:36Z INFO CommandSettings] Arg 'url': ''
+[2023-06-07 10:29:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-07 10:29:36Z INFO PromptManager] ReadValue
+[2023-06-07 10:29:36Z INFO Terminal] WRITE: What is the URL of your repository? 
+[2023-06-07 10:29:36Z INFO Terminal] READ LINE
+[2023-06-07 10:29:46Z INFO Terminal] WRITE LINE: Exiting...

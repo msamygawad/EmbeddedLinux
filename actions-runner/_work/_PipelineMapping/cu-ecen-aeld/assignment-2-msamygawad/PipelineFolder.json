@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "cu-ecen-aeld/assignment-2-msamygawad",
+  "pipelineDirectory": "assignment-2-msamygawad",
+  "workspaceDirectory": "assignment-2-msamygawad/assignment-2-msamygawad",
+  "repositories": {
+    "cu-ecen-aeld/assignment-2-msamygawad": {
+      "repositoryPath": "assignment-2-msamygawad/assignment-2-msamygawad",
+      "lastRunOn": "06/07/2023 15:05:47 +03:00"
+    }
+  },
+  "lastRunOn": "06/07/2023 15:06:16 +03:00"
+}

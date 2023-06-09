@@ -1,0 +1,152 @@
+2023-06-07T10:31:26.2741540Z ***************************************************************************************************************
+2023-06-07T10:31:26.2741562Z ****                                                                                                       ****
+2023-06-07T10:31:26.2741564Z ****     !!! WARNING !!! 
+2023-06-07T10:31:26.2741566Z ****     DO NOT share the log in public place! The log may contains secrets in plain text. 
+2023-06-07T10:31:26.2741569Z ****     !!! WARNING !!! 
+2023-06-07T10:31:26.2741575Z ****                                                                                                       ****
+2023-06-07T10:31:26.2741577Z ***************************************************************************************************************
+2023-06-07T10:31:26.2750397Z ***************************************************************************************************************
+2023-06-07T10:31:26.2750410Z ****                                                                                                       ****
+2023-06-07T10:31:26.2750486Z ****     Try DNS lookup for api.github.com 
+2023-06-07T10:31:26.2750504Z ****                                                                                                       ****
+2023-06-07T10:31:26.2750507Z ***************************************************************************************************************
+2023-06-07T10:31:26.2816852Z Resolved DNS for api.github.com to '140.82.121.5'
+2023-06-07T10:31:26.2755956Z ***************************************************************************************************************
+2023-06-07T10:31:26.2755964Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755966Z ****     Try DNS lookup for pipelines.actions.githubusercontent.com 
+2023-06-07T10:31:26.2755977Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755979Z ***************************************************************************************************************
+2023-06-07T10:31:26.3463257Z Resolved DNS for pipelines.actions.githubusercontent.com to '13.107.42.16'
+2023-06-07T10:31:26.3463342Z Resolved DNS for pipelines.actions.githubusercontent.com to '2620:1ec:22::16'
+2023-06-07T10:31:26.2750942Z ***************************************************************************************************************
+2023-06-07T10:31:26.2750952Z ****                                                                                                       ****
+2023-06-07T10:31:26.2750955Z ****     Try ping api.github.com 
+2023-06-07T10:31:26.2750968Z ****                                                                                                       ****
+2023-06-07T10:31:26.2750970Z ***************************************************************************************************************
+2023-06-07T10:31:26.3553902Z Ping api.github.com (140.82.121.5) succeed within to '66 ms'
+2023-06-07T10:31:26.2754825Z ***************************************************************************************************************
+2023-06-07T10:31:26.2754839Z ****                                                                                                       ****
+2023-06-07T10:31:26.2754908Z ****     Try DNS lookup for vstoken.actions.githubusercontent.com 
+2023-06-07T10:31:26.2754934Z ****                                                                                                       ****
+2023-06-07T10:31:26.2754936Z ***************************************************************************************************************
+2023-06-07T10:31:26.3644078Z Resolved DNS for vstoken.actions.githubusercontent.com to '13.107.42.16'
+2023-06-07T10:31:26.3644112Z Resolved DNS for vstoken.actions.githubusercontent.com to '2620:1ec:21::16'
+2023-06-07T10:31:26.2755011Z ***************************************************************************************************************
+2023-06-07T10:31:26.2755017Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755019Z ****     Try ping vstoken.actions.githubusercontent.com 
+2023-06-07T10:31:26.2755030Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755033Z ***************************************************************************************************************
+2023-06-07T10:31:26.3802161Z Ping vstoken.actions.githubusercontent.com (13.107.42.16) succeed within to '14 ms'
+2023-06-07T10:31:26.2756030Z ***************************************************************************************************************
+2023-06-07T10:31:26.2756035Z ****                                                                                                       ****
+2023-06-07T10:31:26.2756038Z ****     Try ping pipelines.actions.githubusercontent.com 
+2023-06-07T10:31:26.2756048Z ****                                                                                                       ****
+2023-06-07T10:31:26.2756051Z ***************************************************************************************************************
+2023-06-07T10:31:26.4860588Z Ping pipelines.actions.githubusercontent.com (13.107.43.16) succeed within to '68 ms'
+2023-06-07T10:31:26.2751383Z ***************************************************************************************************************
+2023-06-07T10:31:26.2751389Z ****                                                                                                       ****
+2023-06-07T10:31:26.2751391Z ****     Send HTTPS Request (GET) to https://api.github.com/ 
+2023-06-07T10:31:26.2751395Z ****                                                                                                       ****
+2023-06-07T10:31:26.2751398Z ***************************************************************************************************************
+2023-06-07T10:31:26.6358056Z Http status code: OK
+2023-06-07T10:31:26.6358130Z Http response headers: Server: GitHub.com
+Date: Wed, 07 Jun 2023 10:31:26 GMT
+Cache-Control: private, max-age=60, s-maxage=60
+Vary: Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept, X-Requested-With
+ETag: "fcf91d7486297c0efef547feb4579138c6cb7d6f91ea4603155a1e53ae333696"
+X-OAuth-Scopes: admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, admin:ssh_signing_key, audit_log, codespace, delete:packages, delete_repo, gist, notifications, project, repo, user, workflow, write:discussion, write:packages
+X-Accepted-OAuth-Scopes: 
+github-authentication-token-expiration: 2023-09-05 10:31:21 UTC
+X-GitHub-Media-Type: github.v3; format=json
+x-github-api-version-selected: 2022-11-28
+X-RateLimit-Limit: 5000
+X-RateLimit-Remaining: 4996
+X-RateLimit-Reset: 1686134842
+X-RateLimit-Used: 4
+X-RateLimit-Resource: core
+Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+Access-Control-Allow-Origin: *
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: DENY
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+Content-Security-Policy: default-src 'none'
+X-GitHub-Request-Id: 30F4:8755:11104E2:11348A3:64805C7E
+
+2023-06-07T10:31:26.6359268Z Http response body: {"current_user_url":"https://api.github.com/user","current_user_authorizations_html_url":"https://github.com/settings/connections/applications{/client_id}","authorizations_url":"https://api.github.com/authorizations","code_search_url":"https://api.github.com/search/code?q={query}{&page,per_page,sort,order}","commit_search_url":"https://api.github.com/search/commits?q={query}{&page,per_page,sort,order}","emails_url":"https://api.github.com/user/emails","emojis_url":"https://api.github.com/emojis","events_url":"https://api.github.com/events","feeds_url":"https://api.github.com/feeds","followers_url":"https://api.github.com/user/followers","following_url":"https://api.github.com/user/following{/target}","gists_url":"https://api.github.com/gists{/gist_id}","hub_url":"https://api.github.com/hub","issue_search_url":"https://api.github.com/search/issues?q={query}{&page,per_page,sort,order}","issues_url":"https://api.github.com/issues","keys_url":"https://api.github.com/user/keys","label_search_url":"https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page}","notifications_url":"https://api.github.com/notifications","organization_url":"https://api.github.com/orgs/{org}","organization_repositories_url":"https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort}","organization_teams_url":"https://api.github.com/orgs/{org}/teams","public_gists_url":"https://api.github.com/gists/public","rate_limit_url":"https://api.github.com/rate_limit","repository_url":"https://api.github.com/repos/{owner}/{repo}","repository_search_url":"https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order}","current_user_repositories_url":"https://api.github.com/user/repos{?type,page,per_page,sort}","starred_url":"https://api.github.com/user/starred{/owner}{/repo}","starred_gists_url":"https://api.github.com/gists/starred","topic_search_url":"https://api.github.com/search/topics?q={query}{&page,per_page}","user_url":"https://api.github.com/users/{user}","user_organizations_url":"https://api.github.com/user/orgs","user_repositories_url":"https://api.github.com/users/{user}/repos{?type,page,per_page,sort}","user_search_url":"https://api.github.com/search/users?q={query}{&page,per_page,sort,order}"}
+2023-06-07T10:31:26.6359335Z ***************************************************************************************************************
+2023-06-07T10:31:26.6359347Z Http request 'GET' to https://api.github.com/ succeed
+2023-06-07T10:31:26.6359352Z ***************************************************************************************************************
+2023-06-07T10:31:26.6359354Z 
+2023-06-07T10:31:26.6359357Z 
+2023-06-07T10:31:26.2755116Z ***************************************************************************************************************
+2023-06-07T10:31:26.2755120Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755123Z ****     Send HTTPS Request (GET) to https://vstoken.actions.githubusercontent.com/_apis/health 
+2023-06-07T10:31:26.2755127Z ****                                                                                                       ****
+2023-06-07T10:31:26.2755129Z ***************************************************************************************************************
+2023-06-07T10:31:27.0038223Z Http status code: OK
+2023-06-07T10:31:27.0038309Z Http response headers: Cache-Control: no-store,no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: b0ba8fc8-8277-4e98-8cd7-1b69e44424df
+ActivityId: 66f7ca2f-f203-4a91-a384-d1d67ddb4863
+X-TFS-Session: 66f7ca2f-f203-4a91-a384-d1d67ddb4863
+X-VSS-E2EID: 66f7ca2f-f203-4a91-a384-d1d67ddb4863
+X-VSS-SenderDeploymentId: 84ff2294-8721-ab49-db5a-db17b0f6c2de
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 33E3836001AF453EB04D8F25E91A4B82 Ref B: CAI30EDGE0520 Ref C: 2023-06-07T10:31:26Z
+Date: Wed, 07 Jun 2023 10:31:26 GMT
+
+2023-06-07T10:31:27.0038918Z Http response body: {"timeStamp":"2023-06-07T10:31:26.9066461Z","deploymentId":"93fc2d588543401c950d9d26c7787de2","build":[{"area":"VssfSdk","buildNumber":"Actions.Windows.Unified_main_20230605.3","sourceVersion":"afed6159c12f503faf1ff3e492206a927e42ae06","sourceBranch":"refs/heads/main"}],"configurationDatabaseUpdate":{"area":"ConfigurationDatabase","buildNumber":"Actions.Windows.Unified_main_20230605.3","sourceVersion":"afed6159c12f503faf1ff3e492206a927e42ae06","sourceBranch":"refs/heads/main"}}
+2023-06-07T10:31:27.0038952Z ***************************************************************************************************************
+2023-06-07T10:31:27.0038965Z Http request 'GET' to https://vstoken.actions.githubusercontent.com/_apis/health succeed
+2023-06-07T10:31:27.0038972Z ***************************************************************************************************************
+2023-06-07T10:31:27.0038973Z 
+2023-06-07T10:31:27.0038976Z 
+2023-06-07T10:31:26.2771108Z ***************************************************************************************************************
+2023-06-07T10:31:26.2771128Z ****                                                                                                       ****
+2023-06-07T10:31:26.2771131Z ****     Send HTTPS Request (POST) to https://pipelines.actions.githubusercontent.com/_apis/health 
+2023-06-07T10:31:26.2771135Z ****                                                                                                       ****
+2023-06-07T10:31:26.2771137Z ***************************************************************************************************************
+2023-06-07T10:31:27.6360289Z Http status code: NotFound
+2023-06-07T10:31:27.6360384Z Http response headers: Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: ad89b522-8acb-4938-8372-69724e2567fa
+ActivityId: 2fc6f025-6c76-41ae-a003-3ec919ae6cc7
+X-TFS-Session: 2fc6f025-6c76-41ae-a003-3ec919ae6cc7
+X-VSS-E2EID: 2fc6f025-6c76-41ae-a003-3ec919ae6cc7
+X-VSS-SenderDeploymentId: d624195d-30e0-1768-06a5-b10a7879c7db
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 6F98ECF0316F4E16937AD622A2A93A8B Ref B: CAI30EDGE0315 Ref C: 2023-06-07T10:31:26Z
+Date: Wed, 07 Jun 2023 10:31:26 GMT
+
+2023-06-07T10:31:27.6360501Z Http response body: 
+2023-06-07T10:31:27.6360550Z ***************************************************************************************************************
+2023-06-07T10:31:27.6360563Z Http request 'POST' to https://pipelines.actions.githubusercontent.com/_apis/health has expected HTTP response header
+2023-06-07T10:31:27.6360570Z ***************************************************************************************************************
+2023-06-07T10:31:27.6360571Z 
+2023-06-07T10:31:27.6360658Z 
+2023-06-07T10:31:26.2756103Z ***************************************************************************************************************
+2023-06-07T10:31:26.2756107Z ****                                                                                                       ****
+2023-06-07T10:31:26.2756109Z ****     Send HTTPS Request (GET) to https://pipelines.actions.githubusercontent.com/_apis/health 
+2023-06-07T10:31:26.2756113Z ****                                                                                                       ****
+2023-06-07T10:31:26.2756146Z ***************************************************************************************************************
+2023-06-07T10:31:27.6365443Z Http status code: OK
+2023-06-07T10:31:27.6365466Z Http response headers: Cache-Control: no-store,no-cache
+Pragma: no-cache
+Strict-Transport-Security: max-age=2592000
+X-TFS-ProcessId: b2756793-a591-4b97-b1ab-3ba879428565
+ActivityId: 1e98635f-6cba-4f32-b15d-6d504b3c44da
+X-TFS-Session: 1e98635f-6cba-4f32-b15d-6d504b3c44da
+X-VSS-E2EID: 1e98635f-6cba-4f32-b15d-6d504b3c44da
+X-VSS-SenderDeploymentId: d624195d-30e0-1768-06a5-b10a7879c7db
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: C277CF0607B542BC90EAE1AB3F13AA68 Ref B: CAI30EDGE0311 Ref C: 2023-06-07T10:31:26Z
+Date: Wed, 07 Jun 2023 10:31:26 GMT
+
+2023-06-07T10:31:27.6365736Z Http response body: {"timeStamp":"2023-06-07T10:31:27.5425881Z","deploymentId":"d6aa7276-9073-411d-89c5-32ddaf49c47b","build":[{"area":"VssfSdk","buildNumber":"Actions.Linux.Unified_main_20230605.3","sourceVersion":"afed6159c12f503faf1ff3e492206a927e42ae06","sourceBranch":"refs/heads/main"}],"configurationDatabaseUpdate":{"area":"ConfigurationDatabase","buildNumber":"Actions.Windows.Unified_main_20230605.3","sourceVersion":"afed6159c12f503faf1ff3e492206a927e42ae06","sourceBranch":"refs/heads/main"}}
+2023-06-07T10:31:27.6365752Z ***************************************************************************************************************
+2023-06-07T10:31:27.6365756Z Http request 'GET' to https://pipelines.actions.githubusercontent.com/_apis/health succeed
+2023-06-07T10:31:27.6365760Z ***************************************************************************************************************
+2023-06-07T10:31:27.6365762Z 
+2023-06-07T10:31:27.6365764Z 

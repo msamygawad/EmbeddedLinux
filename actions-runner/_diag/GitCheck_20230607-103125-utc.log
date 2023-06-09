@@ -1,0 +1,60 @@
+2023-06-07T10:31:27.6379622Z ***************************************************************************************************************
+2023-06-07T10:31:27.6379635Z ****                                                                                                       ****
+2023-06-07T10:31:27.6379637Z ****     !!! WARNING !!! 
+2023-06-07T10:31:27.6379639Z ****     DO NOT share the log in public place! The log may contains secrets in plain text. 
+2023-06-07T10:31:27.6379640Z ****     !!! WARNING !!! 
+2023-06-07T10:31:27.6379644Z ****                                                                                                       ****
+2023-06-07T10:31:27.6379659Z ***************************************************************************************************************
+2023-06-07T10:31:27.6399157Z ***************************************************************************************************************
+2023-06-07T10:31:27.6399170Z ****                                                                                                       ****
+2023-06-07T10:31:27.6399172Z ****     Validate server cert and proxy configuration with Git 
+2023-06-07T10:31:27.6399174Z ****                                                                                                       ****
+2023-06-07T10:31:27.6399175Z ***************************************************************************************************************
+2023-06-07T10:31:27.6411681Z Run 'git  ls-remote --exit-code https://gh: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@github.com/actions/checkout HEAD' 
+2023-06-07T10:31:27.6606585Z 13:31:27.658590 git.c:439               trace: built-in: git ls-remote --exit-code https://gh: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@github.com/actions/checkout HEAD
+2023-06-07T10:31:27.6606605Z 13:31:27.659225 run-command.c:663       trace: run_command: GIT_DIR=.git git-remote-https https://gh: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@github.com/actions/checkout https://gh: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@github.com/actions/checkout
+2023-06-07T10:31:27.7384204Z *   Trying 140.82.121.4:443...
+2023-06-07T10:31:27.7384261Z * TCP_NODELAY set
+2023-06-07T10:31:27.8104566Z * Connected to github.com (140.82.121.4) port 443 (#0)
+2023-06-07T10:31:27.8277140Z * found 413 certificates in /etc/ssl/certs
+2023-06-07T10:31:27.8277364Z * ALPN, offering h2
+2023-06-07T10:31:27.8277367Z * ALPN, offering http/1.1
+2023-06-07T10:31:27.8990620Z * SSL connection using TLS1.3 / ECDHE_RSA_AES_128_GCM_SHA256
+2023-06-07T10:31:27.8997019Z * 	 server certificate verification OK
+2023-06-07T10:31:27.8997089Z * 	 server certificate status verification SKIPPED
+2023-06-07T10:31:27.8997912Z * 	 common name: github.com (matched)
+2023-06-07T10:31:27.8998093Z * 	 server certificate expiration date OK
+2023-06-07T10:31:27.8998094Z * 	 server certificate activation date OK
+2023-06-07T10:31:27.8998096Z * 	 certificate public key: EC/ECDSA
+2023-06-07T10:31:27.8998154Z * 	 certificate version: #3
+2023-06-07T10:31:27.8998156Z * 	 subject: C=US,ST=California,L=San Francisco,O=GitHub\, Inc.,CN=github.com
+2023-06-07T10:31:27.8998188Z * 	 start date: Tue, 14 Feb 2023 00:00:00 GMT
+2023-06-07T10:31:27.8998190Z * 	 expire date: Thu, 14 Mar 2024 23:59:59 GMT
+2023-06-07T10:31:27.8998212Z * 	 issuer: C=US,O=DigiCert Inc,CN=DigiCert TLS Hybrid ECC SHA384 2020 CA1
+2023-06-07T10:31:27.8998227Z * ALPN, server accepted to use h2
+2023-06-07T10:31:27.9001355Z * Using HTTP2, server supports multi-use
+2023-06-07T10:31:27.9002195Z * Connection state changed (HTTP/2 confirmed)
+2023-06-07T10:31:27.9002798Z * Copying HTTP/2 data in stream buffer to connection buffer after upgrade: len=0
+2023-06-07T10:31:27.9003412Z * Using Stream ID: 1 (easy handle 0x563301296e60)
+2023-06-07T10:31:27.9003420Z > GET /actions/checkout/info/refs?service=git-upload-pack HTTP/2
+2023-06-07T10:31:27.9003449Z Host: github.com
+2023-06-07T10:31:27.9003547Z user-agent: git/2.25.1
+2023-06-07T10:31:27.9003549Z accept: */*
+2023-06-07T10:31:27.9003575Z accept-encoding: deflate, gzip, br
+2023-06-07T10:31:27.9003577Z accept-language: en-US, *;q=0.9
+2023-06-07T10:31:27.9003622Z pragma: no-cache
+2023-06-07T10:31:27.9664076Z * Connection state changed (MAX_CONCURRENT_STREAMS == 100)!
+2023-06-07T10:31:28.0919531Z < HTTP/2 200 
+2023-06-07T10:31:28.0919883Z < server: GitHub-Babel/3.0
+2023-06-07T10:31:28.0919894Z < content-type: application/x-git-upload-pack-advertisement
+2023-06-07T10:31:28.0919908Z < content-security-policy: default-src 'none'; sandbox
+2023-06-07T10:31:28.0920084Z < expires: Fri, 01 Jan 1980 00:00:00 GMT
+2023-06-07T10:31:28.0920226Z < pragma: no-cache
+2023-06-07T10:31:28.0920228Z < cache-control: no-cache, max-age=0, must-revalidate
+2023-06-07T10:31:28.0920230Z < vary: Accept-Encoding
+2023-06-07T10:31:28.0920232Z < date: Wed, 07 Jun 2023 10:31:27 GMT
+2023-06-07T10:31:28.0920368Z < x-frame-options: DENY
+2023-06-07T10:31:28.0920370Z < x-github-request-id: 30F9:986B:1AE8083:1B31992:64805C7F
+2023-06-07T10:31:28.0920373Z < 
+2023-06-07T10:31:28.1823360Z * Connection #0 to host github.com left intact
+2023-06-07T10:31:28.1853556Z f095bcc56b7c2baf48f3ac70d6d6782f4f553222	HEAD

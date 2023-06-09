@@ -1,0 +1,92 @@
+[2023-06-07 12:01:53Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:01:53Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-07 12:01:53Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-07 12:01:53Z INFO Listener] Version: 2.304.0
+[2023-06-07 12:01:53Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 12:01:53Z INFO Listener] Culture: en-US
+[2023-06-07 12:01:53Z INFO Listener] UI Culture: en-US
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO CommandLineParser] Parse
+[2023-06-07 12:01:53Z INFO CommandLineParser] Parsing 3 args
+[2023-06-07 12:01:53Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:01:53Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 12:01:53Z INFO CommandLineParser] Adding Command: remove
+[2023-06-07 12:01:53Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:01:53Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 12:01:53Z INFO CommandLineParser] arg: token
+[2023-06-07 12:01:53Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:01:53Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 12:01:53Z INFO CommandLineParser] Adding option 'token': '***'
+[2023-06-07 12:01:53Z INFO Listener] Arguments parsed
+[2023-06-07 12:01:53Z INFO Runner] ExecuteCommand
+[2023-06-07 12:01:53Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:53Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:53Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 12:01:53Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 12:01:53Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 12:01:53Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 12:01:53Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-07 12:01:53Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-07 12:01:53Z INFO CommandSettings] Command 'remove': 'True'
+[2023-06-07 12:01:53Z INFO CommandSettings] Flag 'local': 'False'
+[2023-06-07 12:01:53Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 12:01:53Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 12:01:53Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 12:01:53Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 12:01:53Z INFO ConfigurationStore] HasCredentials()
+[2023-06-07 12:01:53Z INFO ConfigurationStore] stored True
+[2023-06-07 12:01:53Z INFO ConfigurationStore] Read setting file: 299 chars
+[2023-06-07 12:01:53Z INFO CommandSettings] Arg 'token': '***'
+[2023-06-07 12:01:53Z INFO CommandSettings] Remove token from Arg dictionary.
+[2023-06-07 12:01:54Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (39D8:9D6B:14C1C58:14F0B0A:648071B1)
+[2023-06-07 12:01:54Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2023-06-07 12:01:54Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:01:54Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-07 12:01:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:01:54Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:01:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 12:01:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:01:54Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:01:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 12:01:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:01:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:01:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:01:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:01:55Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:01:55Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 12:01:55Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 12:01:55Z INFO ConfigurationStore] HasCredentials()
+[2023-06-07 12:01:55Z INFO ConfigurationStore] stored True
+[2023-06-07 12:01:55Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:01:55Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:01:55Z INFO HostContext] Well known config file 'RSACredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams'
+[2023-06-07 12:01:55Z INFO RSAFileKeyManager] Deleting RSA key parameters file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:01:55Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:01:55Z INFO Listener] Runner execution has finished with return code 0

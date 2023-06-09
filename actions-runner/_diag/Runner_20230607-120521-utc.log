@@ -1,0 +1,1038 @@
+[2023-06-07 12:05:21Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 12:05:21Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:21Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:21Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:05:22Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-07 12:05:22Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-07 12:05:22Z INFO Listener] Version: 2.304.0
+[2023-06-07 12:05:22Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 12:05:22Z INFO Listener] Culture: en-US
+[2023-06-07 12:05:22Z INFO Listener] UI Culture: en-US
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO CommandLineParser] Parse
+[2023-06-07 12:05:22Z INFO CommandLineParser] Parsing 1 args
+[2023-06-07 12:05:22Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:05:22Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 12:05:22Z INFO CommandLineParser] Adding Command: run
+[2023-06-07 12:05:22Z INFO Listener] Arguments parsed
+[2023-06-07 12:05:22Z INFO Runner] ExecuteCommand
+[2023-06-07 12:05:22Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Command 'remove': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-06-07 12:05:22Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 12:05:22Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 12:05:22Z INFO ConfigurationStore] Read setting file: 299 chars
+[2023-06-07 12:05:22Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 12:05:22Z INFO CommandSettings] Command 'run': 'True'
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 12:05:22Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 12:05:22Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-06-07 12:05:22Z INFO Runner] Set runner startup type - Manual
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 12:05:22Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-07 12:05:22Z INFO Runner] RunAsync
+[2023-06-07 12:05:22Z INFO ConfigurationManager] LoadSettings
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured()
+[2023-06-07 12:05:22Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-07 12:05:22Z INFO ConfigurationManager] Is configured: True
+[2023-06-07 12:05:22Z INFO ConfigurationManager] Settings Loaded
+[2023-06-07 12:05:22Z INFO MessageListener] {
+  "AgentId": 22,
+  "AgentName": "msamy",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignment-2-msamygawad",
+  "WorkFolder": "_work"
+}
+[2023-06-07 12:05:22Z INFO MessageListener] Loading Credentials
+[2023-06-07 12:05:22Z INFO ConfigurationStore] HasCredentials()
+[2023-06-07 12:05:22Z INFO ConfigurationStore] stored True
+[2023-06-07 12:05:22Z INFO CredentialManager] GetCredentialProvider
+[2023-06-07 12:05:22Z INFO CredentialManager] Creating type OAuth
+[2023-06-07 12:05:22Z INFO CredentialManager] Creating credential type: OAuth
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:22Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:05:22Z INFO HostContext] Well known config file 'RSACredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams'
+[2023-06-07 12:05:22Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:05:22Z INFO MessageListener] Attempt to create session.
+[2023-06-07 12:05:22Z INFO MessageListener] Connecting to the Runner Server...
+[2023-06-07 12:05:22Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:05:22Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-07 12:05:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:05:22Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:05:22Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 12:05:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:05:22Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 12:05:22Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 12:05:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 12:05:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:05:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:05:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 12:05:23Z INFO MessageListener] VssConnection created
+[2023-06-07 12:05:23Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:05:23Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:05:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:05:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:05:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 12:05:24Z INFO MessageListener] Session created.
+[2023-06-07 12:05:24Z INFO Terminal] WRITE LINE: Current runner version: '2.304.0'
+[2023-06-07 12:05:24Z INFO Terminal] WRITE LINE: 2023-06-07 12:05:24Z: Listening for Jobs
+[2023-06-07 12:05:24Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-06-07 12:05:45Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:05:45Z INFO MessageListener] Message '1' received from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9'.
+[2023-06-07 12:05:45Z INFO Runner] Received job message of length 23343 from service, with hash '0a5a1d7804b69a35297e4c1055f571018972d5161ea3fc1bacbb214519fca5af'
+[2023-06-07 12:05:45Z INFO JobDispatcher] Job request 9 for plan d88a1994-4c9d-40ab-83d9-54f9a3b4304f job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-07 12:05:45Z INFO JobDispatcher] Pull OrchestrationId d88a1994-4c9d-40ab-83d9-54f9a3b4304f.unit-test.__default from JWT claims
+[2023-06-07 12:05:45Z INFO Terminal] WRITE LINE: 2023-06-07 12:05:45Z: Running job: unit-test
+[2023-06-07 12:05:45Z INFO JobDispatcher] Start renew job request 9 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 12:05:45Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 6/7/2023 12:15:45 PM
+[2023-06-07 12:05:45Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 105 108'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 12:05:45Z INFO ProcessInvokerWrapper] Process started with process id 9449, waiting for process exit.
+[2023-06-07 12:05:45Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 12:05:45Z INFO ProcessChannel] Sending message of length 23343, with hash '0a5a1d7804b69a35297e4c1055f571018972d5161ea3fc1bacbb214519fca5af'
+[2023-06-07 12:05:45Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 12:05:45Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 12:06:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:06:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:06:13Z INFO ProcessInvokerWrapper] Finished process 9449 with exit code 100, and elapsed time 00:00:27.7803266.
+[2023-06-07 12:06:13Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 100
+[2023-06-07 12:06:13Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Succeeded
+[2023-06-07 12:06:13Z INFO Terminal] WRITE LINE: 2023-06-07 12:06:13Z: Job unit-test completed with result: Succeeded
+[2023-06-07 12:06:13Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-07 12:06:13Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 9.
+[2023-06-07 12:06:13Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 12:06:13Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 12:06:15Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 12:06:15Z INFO MessageListener] Message '2' received from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9'.
+[2023-06-07 12:06:15Z INFO Runner] Received job message of length 23346 from service, with hash 'c22a7797e4bdeb4997397bd0e9cf303f37b6a49398170626901e27260ed906cd'
+[2023-06-07 12:06:15Z INFO JobDispatcher] Job request 10 for plan d88a1994-4c9d-40ab-83d9-54f9a3b4304f job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-07 12:06:15Z INFO JobDispatcher] Pull OrchestrationId d88a1994-4c9d-40ab-83d9-54f9a3b4304f.full-test.__default from JWT claims
+[2023-06-07 12:06:15Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-07 12:06:15Z INFO Terminal] WRITE LINE: 2023-06-07 12:06:15Z: Running job: full-test
+[2023-06-07 12:06:15Z INFO JobDispatcher] Start renew job request 10 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 12:06:15Z INFO JobDispatcher] Successfully renew job request 10, job is valid till 6/7/2023 12:16:15 PM
+[2023-06-07 12:06:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 106 111'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-07 12:06:15Z INFO ProcessInvokerWrapper] Process started with process id 10385, waiting for process exit.
+[2023-06-07 12:06:15Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 12:06:15Z INFO ProcessChannel] Sending message of length 23346, with hash 'c22a7797e4bdeb4997397bd0e9cf303f37b6a49398170626901e27260ed906cd'
+[2023-06-07 12:06:15Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-07 12:06:15Z INFO JobNotification] Entering StartMonitor
+[2023-06-07 12:06:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:06:28Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:06:28Z INFO ProcessInvokerWrapper] Finished process 10385 with exit code 100, and elapsed time 00:00:12.7191924.
+[2023-06-07 12:06:28Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 100
+[2023-06-07 12:06:28Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Succeeded
+[2023-06-07 12:06:28Z INFO Terminal] WRITE LINE: 2023-06-07 12:06:28Z: Job full-test completed with result: Succeeded
+[2023-06-07 12:06:28Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-07 12:06:28Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 10.
+[2023-06-07 12:06:28Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-07 12:06:28Z INFO JobNotification] Entering EndMonitor
+[2023-06-07 12:36:25Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 13:00:49Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:00:51Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:06:47Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 13:37:00Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 13:40:27Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 failed (Socket Error: ConnectionReset). The operation will be retried in 11.133 seconds.
+[2023-06-07 13:40:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:40:40Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 6740752E8DC94EF5BECB7289BB6C90A8 Ref B: CAI30EDGE0509 Ref C: 2023-06-07T13:56:40Z
+[2023-06-07 13:40:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:40:40Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:40:40Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:45:40 PM. Current server time is 6/7/2023 1:56:40 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:40:40Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:45:40 PM. Current server time is 6/7/2023 1:56:40 PM.
+[2023-06-07 13:40:40Z ERR  Terminal] WRITE ERROR: 2023-06-07 13:40:40Z: Runner connect error: The token expired on 6/7/2023 1:45:40 PM. Current server time is 6/7/2023 1:56:40 PM.. Retrying until reconnected.
+[2023-06-07 13:40:40Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:40:40Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:40:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:40:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:40:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:40:42Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-06-07 13:41:08Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:41:08Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: C46BCA7C8BD64B22BE1152573BC6399F Ref B: CAI30EDGE0309 Ref C: 2023-06-07T13:57:08Z
+[2023-06-07 13:41:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:41:08Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:41:08Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:46:08 PM. Current server time is 6/7/2023 1:57:08 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:41:08Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:46:08 PM. Current server time is 6/7/2023 1:57:08 PM.
+[2023-06-07 13:41:08Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:41:08Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:41:08Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:41:08Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:41:10Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:41:10Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2023-06-07 13:41:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:41:39Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: FE118D84A79446CDA8C5A14B0A23ABE8 Ref B: CAI30EDGE0322 Ref C: 2023-06-07T13:57:38Z
+[2023-06-07 13:41:39Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:41:39Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:41:39Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:46:38 PM. Current server time is 6/7/2023 1:57:39 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:41:39Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:46:38 PM. Current server time is 6/7/2023 1:57:39 PM.
+[2023-06-07 13:41:39Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:41:39Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:41:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:41:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:41:39Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:41:39Z INFO MessageListener] Sleeping for 18.857 seconds before retrying.
+[2023-06-07 13:41:58Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:41:59Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 69A0274486EC4EC5B26D8E3E3A1E3DA0 Ref B: CAI30EDGE0110 Ref C: 2023-06-07T13:57:59Z
+[2023-06-07 13:41:59Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:41:59Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:41:59Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:46:59 PM. Current server time is 6/7/2023 1:57:59 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:41:59Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:46:59 PM. Current server time is 6/7/2023 1:57:59 PM.
+[2023-06-07 13:41:59Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:41:59Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:41:59Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:41:59Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:42:00Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:42:00Z INFO MessageListener] Sleeping for 16.505 seconds before retrying.
+[2023-06-07 13:42:17Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:42:18Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 63BAD6D68BC048A3A5DC4CDE034735AD Ref B: CAI30EDGE0513 Ref C: 2023-06-07T13:58:17Z
+[2023-06-07 13:42:18Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:42:18Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:42:18Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:47:18 PM. Current server time is 6/7/2023 1:58:18 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:42:18Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:47:18 PM. Current server time is 6/7/2023 1:58:18 PM.
+[2023-06-07 13:42:18Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:42:18Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:42:18Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:42:18Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:42:19Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:42:19Z INFO MessageListener] Sleeping for 20.34 seconds before retrying.
+[2023-06-07 13:42:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:42:40Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: C0ADFB95A6C8446BAF2ADE9DB0889C00 Ref B: CAI30EDGE0119 Ref C: 2023-06-07T13:58:39Z
+[2023-06-07 13:42:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:42:40Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:42:40Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:47:40 PM. Current server time is 6/7/2023 1:58:40 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:42:40Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:47:40 PM. Current server time is 6/7/2023 1:58:40 PM.
+[2023-06-07 13:42:40Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:42:40Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:42:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:42:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:42:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:42:41Z INFO MessageListener] Sleeping for 55.714 seconds before retrying.
+[2023-06-07 13:43:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:43:38Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 29397216A2964FEAB4FC8BD9B157D4E9 Ref B: CAI30EDGE0514 Ref C: 2023-06-07T13:59:37Z
+[2023-06-07 13:43:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:43:38Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:43:38Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:48:37 PM. Current server time is 6/7/2023 1:59:38 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:43:38Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:48:37 PM. Current server time is 6/7/2023 1:59:38 PM.
+[2023-06-07 13:43:38Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:43:38Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:43:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:43:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:43:38Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:43:38Z INFO MessageListener] Sleeping for 33.905 seconds before retrying.
+[2023-06-07 13:44:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:44:13Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 1AA82ED1C4B8467792C8026D334ABB8E Ref B: CAI30EDGE0119 Ref C: 2023-06-07T14:00:13Z
+[2023-06-07 13:44:13Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:44:13Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:44:13Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:49:13 PM. Current server time is 6/7/2023 2:00:13 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:44:13Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:49:13 PM. Current server time is 6/7/2023 2:00:13 PM.
+[2023-06-07 13:44:13Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:44:13Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:44:13Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:44:13Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:44:14Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:44:14Z INFO MessageListener] Sleeping for 46.695 seconds before retrying.
+[2023-06-07 13:45:00Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:45:01Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 708984300E94423BB2375D0875CF632A Ref B: VIEEDGE1909 Ref C: 2023-06-07T14:01:01Z
+[2023-06-07 13:45:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:45:01Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:45:01Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:50:01 PM. Current server time is 6/7/2023 2:01:01 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:45:01Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:50:01 PM. Current server time is 6/7/2023 2:01:01 PM.
+[2023-06-07 13:45:01Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:45:01Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:45:01Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:45:01Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:45:02Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:45:02Z INFO MessageListener] Sleeping for 41.288 seconds before retrying.
+[2023-06-07 13:45:44Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:45:48Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 1EEFE29349A44D5F83D50D7AF534056B Ref B: VIEEDGE2208 Ref C: 2023-06-07T14:01:47Z
+[2023-06-07 13:45:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:45:48Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (4.0897117 seconds)
+[2023-06-07 13:45:48Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:45:48Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:50:44 PM. Current server time is 6/7/2023 2:01:48 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:45:48Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:50:44 PM. Current server time is 6/7/2023 2:01:48 PM.
+[2023-06-07 13:45:48Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:45:48Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:45:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:45:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:45:52Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:45:52Z INFO MessageListener] Sleeping for 48.678 seconds before retrying.
+[2023-06-07 13:46:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:46:41Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 29A5AFDF0B3C421E8DE277C643DCBDE1 Ref B: VIEEDGE2510 Ref C: 2023-06-07T14:02:41Z
+[2023-06-07 13:46:41Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:46:41Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:46:41Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:51:41 PM. Current server time is 6/7/2023 2:02:41 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:46:41Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:51:41 PM. Current server time is 6/7/2023 2:02:41 PM.
+[2023-06-07 13:46:41Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:46:41Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:46:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:46:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:46:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:46:42Z INFO MessageListener] Sleeping for 40.37 seconds before retrying.
+[2023-06-07 13:47:23Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:47:24Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 05CFE838691A4B50AD578CC84C7049A8 Ref B: VIEEDGE2521 Ref C: 2023-06-07T14:03:23Z
+[2023-06-07 13:47:24Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:47:24Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:47:24Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:52:23 PM. Current server time is 6/7/2023 2:03:24 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:47:24Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:52:23 PM. Current server time is 6/7/2023 2:03:24 PM.
+[2023-06-07 13:47:24Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:47:24Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:47:24Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:47:24Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:47:25Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:47:25Z INFO MessageListener] Sleeping for 31.085 seconds before retrying.
+[2023-06-07 13:47:56Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:47:57Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 120EFB371D96459782BE47B2D01A9BC4 Ref B: VIEEDGE1305 Ref C: 2023-06-07T14:03:57Z
+[2023-06-07 13:47:57Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:47:57Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:47:57Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:52:57 PM. Current server time is 6/7/2023 2:03:57 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:47:57Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:52:57 PM. Current server time is 6/7/2023 2:03:57 PM.
+[2023-06-07 13:47:57Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:47:57Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:47:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:47:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:47:58Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:47:58Z INFO MessageListener] Sleeping for 39.514 seconds before retrying.
+[2023-06-07 13:48:38Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:48:39Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 2B07B7E91908423F8781228ED0200158 Ref B: CAI30EDGE0117 Ref C: 2023-06-07T14:04:38Z
+[2023-06-07 13:48:39Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:48:39Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:48:39Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:53:38 PM. Current server time is 6/7/2023 2:04:39 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:48:39Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:53:38 PM. Current server time is 6/7/2023 2:04:39 PM.
+[2023-06-07 13:48:39Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:48:39Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:48:39Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:48:39Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:48:39Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:48:39Z INFO MessageListener] Sleeping for 55.203 seconds before retrying.
+[2023-06-07 13:49:35Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:49:35Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: FE19B2EF61D04B6DA90B78B3CDC28042 Ref B: CAI30EDGE0112 Ref C: 2023-06-07T14:05:35Z
+[2023-06-07 13:49:35Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:49:35Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:49:35Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:54:35 PM. Current server time is 6/7/2023 2:05:36 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:49:35Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:54:35 PM. Current server time is 6/7/2023 2:05:36 PM.
+[2023-06-07 13:49:35Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:49:35Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:49:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:49:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:49:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:49:36Z INFO MessageListener] Sleeping for 35.125 seconds before retrying.
+[2023-06-07 13:50:12Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:50:12Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 0904DE28C85549E4A76C1E6402687362 Ref B: CAI30EDGE0105 Ref C: 2023-06-07T14:06:12Z
+[2023-06-07 13:50:12Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:50:12Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:50:12Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:55:12 PM. Current server time is 6/7/2023 2:06:12 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:50:12Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:55:12 PM. Current server time is 6/7/2023 2:06:12 PM.
+[2023-06-07 13:50:12Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:50:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:50:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:50:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:50:13Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:50:13Z INFO MessageListener] Sleeping for 57.462 seconds before retrying.
+[2023-06-07 13:51:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:51:12Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 6623FD72A3F04A4D996511ED0EE6DF0F Ref B: CAI30EDGE0109 Ref C: 2023-06-07T14:07:11Z
+[2023-06-07 13:51:12Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:51:12Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:51:12Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:56:11 PM. Current server time is 6/7/2023 2:07:12 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:51:12Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:56:11 PM. Current server time is 6/7/2023 2:07:12 PM.
+[2023-06-07 13:51:12Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:51:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:51:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:51:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:51:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:51:12Z INFO MessageListener] Sleeping for 39.889 seconds before retrying.
+[2023-06-07 13:51:53Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:51:54Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 34C829A9E5F34CB1AEFEF652D3D0689B Ref B: CAI30EDGE0509 Ref C: 2023-06-07T14:07:53Z
+[2023-06-07 13:51:54Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:51:54Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:51:54Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:56:53 PM. Current server time is 6/7/2023 2:07:54 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:51:54Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:56:53 PM. Current server time is 6/7/2023 2:07:54 PM.
+[2023-06-07 13:51:54Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:51:54Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:51:54Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:51:54Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:51:55Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:51:55Z INFO MessageListener] Sleeping for 52.488 seconds before retrying.
+[2023-06-07 13:52:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:52:48Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: CE02A7A7E7494B129EC39A76A4440F9B Ref B: CAI30EDGE0313 Ref C: 2023-06-07T14:08:48Z
+[2023-06-07 13:52:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:52:48Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:52:48Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:57:48 PM. Current server time is 6/7/2023 2:08:48 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:52:48Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:57:48 PM. Current server time is 6/7/2023 2:08:48 PM.
+[2023-06-07 13:52:48Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:52:48Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:52:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:52:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:52:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:52:49Z INFO MessageListener] Sleeping for 53.584 seconds before retrying.
+[2023-06-07 13:53:43Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:53:43Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 370C4C4071404EA3A4002E1A0D66C257 Ref B: CAI30EDGE0112 Ref C: 2023-06-07T14:09:43Z
+[2023-06-07 13:53:43Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:53:43Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:53:43Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:58:43 PM. Current server time is 6/7/2023 2:09:44 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:53:43Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:58:43 PM. Current server time is 6/7/2023 2:09:44 PM.
+[2023-06-07 13:53:43Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:53:43Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:53:43Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:53:43Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:53:44Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:53:44Z INFO MessageListener] Sleeping for 40.928 seconds before retrying.
+[2023-06-07 13:54:25Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:54:26Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 77E148E7F0534BA3B83564AB175FC2EA Ref B: CAI30EDGE0506 Ref C: 2023-06-07T14:10:25Z
+[2023-06-07 13:54:26Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:54:26Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:54:26Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 1:59:25 PM. Current server time is 6/7/2023 2:10:26 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:54:26Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 1:59:25 PM. Current server time is 6/7/2023 2:10:26 PM.
+[2023-06-07 13:54:26Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:54:26Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:54:26Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:54:26Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:54:26Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:54:26Z INFO MessageListener] Sleeping for 46.485 seconds before retrying.
+[2023-06-07 13:55:13Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:55:14Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 703207A2BDBB4B3993E8F0C7564FE820 Ref B: CAI30EDGE0520 Ref C: 2023-06-07T14:11:13Z
+[2023-06-07 13:55:14Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:55:14Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:55:14Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:00:13 PM. Current server time is 6/7/2023 2:11:14 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:55:14Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:00:13 PM. Current server time is 6/7/2023 2:11:14 PM.
+[2023-06-07 13:55:14Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:55:14Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:55:14Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:55:14Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:55:14Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:55:14Z INFO MessageListener] Sleeping for 50.009 seconds before retrying.
+[2023-06-07 13:56:05Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:56:05Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 7E75FA5F09854B4483762D340BBD6983 Ref B: CAI30EDGE0108 Ref C: 2023-06-07T14:12:05Z
+[2023-06-07 13:56:05Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:56:05Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:56:05Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:01:05 PM. Current server time is 6/7/2023 2:12:05 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:56:05Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:01:05 PM. Current server time is 6/7/2023 2:12:05 PM.
+[2023-06-07 13:56:05Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:56:05Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:56:05Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:56:05Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:56:06Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:56:06Z INFO MessageListener] Sleeping for 50.813 seconds before retrying.
+[2023-06-07 13:56:57Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:56:58Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 0B371A5D385A42FE848A5486DC36359D Ref B: CAI30EDGE0512 Ref C: 2023-06-07T14:12:58Z
+[2023-06-07 13:56:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:56:58Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:56:58Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:01:58 PM. Current server time is 6/7/2023 2:12:58 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:56:58Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:01:58 PM. Current server time is 6/7/2023 2:12:58 PM.
+[2023-06-07 13:56:58Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:56:58Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:56:58Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:56:58Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:56:59Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:56:59Z INFO MessageListener] Sleeping for 51.711 seconds before retrying.
+[2023-06-07 13:57:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:57:51Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: C8235969EF3F48B58D86A2085C7495D1 Ref B: CAI30EDGE0120 Ref C: 2023-06-07T14:13:51Z
+[2023-06-07 13:57:51Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:57:51Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:57:51Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:02:51 PM. Current server time is 6/7/2023 2:13:51 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:57:51Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:02:51 PM. Current server time is 6/7/2023 2:13:51 PM.
+[2023-06-07 13:57:51Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:57:51Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:57:51Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:57:51Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:57:52Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:57:52Z INFO MessageListener] Sleeping for 55.849 seconds before retrying.
+[2023-06-07 13:58:48Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:58:49Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: B35F643E54D94B2F8184B82E49696857 Ref B: CAI30EDGE0512 Ref C: 2023-06-07T14:14:49Z
+[2023-06-07 13:58:49Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:58:49Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:58:49Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:03:49 PM. Current server time is 6/7/2023 2:14:49 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:58:49Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:03:49 PM. Current server time is 6/7/2023 2:14:49 PM.
+[2023-06-07 13:58:49Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:58:49Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:58:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:58:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:58:49Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:58:49Z INFO MessageListener] Sleeping for 49.728 seconds before retrying.
+[2023-06-07 13:59:39Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 13:59:40Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 8E6A26DD43FF4321BFBD89CEE4BB9B01 Ref B: CAI30EDGE0105 Ref C: 2023-06-07T14:15:39Z
+[2023-06-07 13:59:40Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 13:59:40Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 13:59:40Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:04:40 PM. Current server time is 6/7/2023 2:15:40 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 13:59:40Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:04:40 PM. Current server time is 6/7/2023 2:15:40 PM.
+[2023-06-07 13:59:40Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 13:59:40Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 13:59:40Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 13:59:40Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 13:59:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 13:59:41Z INFO MessageListener] Sleeping for 56.768 seconds before retrying.
+[2023-06-07 14:00:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:00:38Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 715750C18C68409FB67C86093847E687 Ref B: VIEEDGE1005 Ref C: 2023-06-07T14:16:38Z
+[2023-06-07 14:00:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:00:38Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:00:38Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:05:38 PM. Current server time is 6/7/2023 2:16:38 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:00:38Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:05:38 PM. Current server time is 6/7/2023 2:16:38 PM.
+[2023-06-07 14:00:38Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:00:38Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:00:38Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:00:38Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:00:39Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:00:39Z INFO MessageListener] Sleeping for 52.994 seconds before retrying.
+[2023-06-07 14:01:32Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:01:35Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: BEEF1986B4A14EDAAA5C1C5E828D68B5 Ref B: VIEEDGE2913 Ref C: 2023-06-07T14:17:35Z
+[2023-06-07 14:01:35Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:01:35Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (2.6255235 seconds)
+[2023-06-07 14:01:35Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:01:35Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:06:33 PM. Current server time is 6/7/2023 2:17:35 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:01:35Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:06:33 PM. Current server time is 6/7/2023 2:17:35 PM.
+[2023-06-07 14:01:35Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:01:35Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:01:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:01:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:01:35Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:01:35Z INFO MessageListener] Sleeping for 34 seconds before retrying.
+[2023-06-07 14:02:10Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:02:11Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 5159368066F14FCABA9A253401E764D8 Ref B: CAI30EDGE0105 Ref C: 2023-06-07T14:18:10Z
+[2023-06-07 14:02:11Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:02:11Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:02:11Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:07:10 PM. Current server time is 6/7/2023 2:18:11 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:02:11Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:07:10 PM. Current server time is 6/7/2023 2:18:11 PM.
+[2023-06-07 14:02:11Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:02:11Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:02:11Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:02:11Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:02:11Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:02:11Z INFO MessageListener] Sleeping for 35.607 seconds before retrying.
+[2023-06-07 14:02:47Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:02:48Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 98D2D2E2BA6C425A81D16347011405EE Ref B: CAI30EDGE0309 Ref C: 2023-06-07T14:18:47Z
+[2023-06-07 14:02:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:02:48Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:02:48Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:07:48 PM. Current server time is 6/7/2023 2:18:48 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:02:48Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:07:48 PM. Current server time is 6/7/2023 2:18:48 PM.
+[2023-06-07 14:02:48Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:02:48Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:02:48Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:02:48Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:02:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:02:48Z INFO MessageListener] Sleeping for 51.732 seconds before retrying.
+[2023-06-07 14:03:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:03:41Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 35AB792A49104E2F846DCF543A73DBED Ref B: CAI30EDGE0313 Ref C: 2023-06-07T14:19:41Z
+[2023-06-07 14:03:41Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:03:41Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:03:41Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:08:41 PM. Current server time is 6/7/2023 2:19:41 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:03:41Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:08:41 PM. Current server time is 6/7/2023 2:19:41 PM.
+[2023-06-07 14:03:41Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:03:41Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:03:41Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:03:41Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:03:41Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:03:41Z INFO MessageListener] Sleeping for 54.977 seconds before retrying.
+[2023-06-07 14:04:36Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:04:37Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 5DF2184193C849DBBD78968833A9DC41 Ref B: CAI30EDGE0507 Ref C: 2023-06-07T14:20:36Z
+[2023-06-07 14:04:37Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:04:37Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:04:37Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:09:37 PM. Current server time is 6/7/2023 2:20:37 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:04:37Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:09:37 PM. Current server time is 6/7/2023 2:20:37 PM.
+[2023-06-07 14:04:37Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:04:37Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:04:37Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:04:37Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:04:38Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:04:38Z INFO MessageListener] Sleeping for 33.082 seconds before retrying.
+[2023-06-07 14:05:11Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:05:12Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 5A7DF9FD01FB4F3997688193F0ECC93B Ref B: CAI30EDGE0110 Ref C: 2023-06-07T14:21:11Z
+[2023-06-07 14:05:12Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:05:12Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:05:12Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:10:12 PM. Current server time is 6/7/2023 2:21:12 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:05:12Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:10:12 PM. Current server time is 6/7/2023 2:21:12 PM.
+[2023-06-07 14:05:12Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:05:12Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:05:12Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:05:12Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:05:12Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:05:12Z INFO MessageListener] Sleeping for 48.014 seconds before retrying.
+[2023-06-07 14:06:01Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:06:01Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 7A6D9C4267AE4FD4BF3664D4ED7F3814 Ref B: VIEEDGE2907 Ref C: 2023-06-07T14:22:01Z
+[2023-06-07 14:06:01Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:06:01Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:06:01Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:11:01 PM. Current server time is 6/7/2023 2:22:02 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:06:01Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:11:01 PM. Current server time is 6/7/2023 2:22:02 PM.
+[2023-06-07 14:06:01Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:06:01Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:06:01Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:06:01Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:06:02Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:06:02Z INFO MessageListener] Sleeping for 43.658 seconds before retrying.
+[2023-06-07 14:06:46Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:06:47Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 987D8B323E734CDABA8A9F76051199E9 Ref B: VIEEDGE1713 Ref C: 2023-06-07T14:22:47Z
+[2023-06-07 14:06:47Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:06:47Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:06:47Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:11:47 PM. Current server time is 6/7/2023 2:22:47 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:06:47Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:11:47 PM. Current server time is 6/7/2023 2:22:47 PM.
+[2023-06-07 14:06:47Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:06:47Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:06:47Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:06:47Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:06:48Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:06:48Z INFO MessageListener] Sleeping for 53.118 seconds before retrying.
+[2023-06-07 14:07:41Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 14:07:41Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:07:42Z ERR  GitHubActionsService] POST request to https://vstoken.actions.githubusercontent.com/_apis/oauth2/token/a6e0016f-1ab7-42d3-a60e-0ee246b039bb failed. HTTP Status: BadRequest, AFD Ref: Ref A: 5EF881F4CC94425F9A467B50A496788A Ref B: VIEEDGE2208 Ref C: 2023-06-07T14:23:42Z
+[2023-06-07 14:07:42Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:07:42Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-07 14:07:42Z ERR  MessageListener] GitHub.Services.OAuth.VssOAuthTokenRequestException: The token expired on 6/7/2023 2:12:41 PM. Current server time is 6/7/2023 2:23:42 PM.
+   at GitHub.Services.OAuth.VssOAuthTokenProvider.OnGetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenOperation.GetTokenAsync(VssTraceActivity traceActivity)
+   at GitHub.Services.Common.IssuedTokenProvider.GetTokenAsync(IssuedToken failedToken, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-07 14:07:42Z INFO MessageListener] Retriable exception: The token expired on 6/7/2023 2:12:41 PM. Current server time is 6/7/2023 2:23:42 PM.
+[2023-06-07 14:07:42Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-07 14:07:42Z INFO RunnerServer] EstablishVssConnection
+[2023-06-07 14:07:42Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-07 14:07:42Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 14:07:42Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 14:07:42Z INFO MessageListener] Sleeping for 57.422 seconds before retrying.
+[2023-06-07 14:24:40Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 14:24:41Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 14:25:31Z INFO Terminal] WRITE LINE: 2023-06-07 14:25:31Z: Runner reconnected.
+[2023-06-07 14:47:31Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 failed (Socket Error: ConnectionReset). The operation will be retried in 11.182 seconds.
+[2023-06-07 14:51:09Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 failed (Socket Error: ConnectionReset). The operation will be retried in 11.191 seconds.
+[2023-06-07 14:51:20Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 failed (Socket Error: TryAgain). The operation will be retried in 12.538 seconds.
+[2023-06-07 14:54:06Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 15:20:16Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 15:20:20Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 15:20:20Z WARN GitHubActionsService] Retrieving an AAD auth token took a long time (3.8095359 seconds)
+[2023-06-07 15:32:03Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 15:48:09Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 failed (HTTP Status: ServiceUnavailable, AFD Ref: Ref A: E31CC335214C4A9383BBC9C441B05696 Ref B: CAI30EDGE0315 Ref C: 2023-06-07T15:47:58Z). The operation will be retried in 10.9 seconds.
+[2023-06-07 16:02:42Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 16:16:06Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_rsaparams
+[2023-06-07 16:16:08Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-07 16:32:53Z INFO MessageListener] No message retrieved from session 'f25ad8bb-7b29-4264-a456-1cfcd93837f9' within last 30 minutes.
+[2023-06-07 16:48:46Z INFO Terminal] WRITE LINE: Exiting...
+[2023-06-07 16:48:46Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-07 16:48:46Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-07 16:48:46Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2023-06-07 16:48:46Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/iZPolp7pI4YVV52aINyfjWBAdljlGzzYcRNtgZkpHsgYJOiRcX/_apis/distributedtask/pools/1/messages?sessionId=f25ad8bb-7b29-4264-a456-1cfcd93837f9&lastMessageId=2&status=Online&runnerVersion=2.304.0 has been cancelled.
+[2023-06-07 16:48:46Z INFO MessageListener] Get next message has been cancelled.
+[2023-06-07 16:48:46Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-06-07 16:48:46Z INFO JobDispatcher] Ensure WorkerDispather for job a047640a-23da-5e9b-1ef8-917a09b3753a run to finish, cancel any running job.
+[2023-06-07 16:48:46Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-07 16:48:47Z INFO Listener] Runner execution been cancelled.

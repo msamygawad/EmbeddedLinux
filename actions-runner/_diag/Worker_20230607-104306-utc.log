@@ -1,0 +1,3131 @@
+[2023-06-07 10:43:06Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:43:06Z INFO Worker] Version: 2.304.0
+[2023-06-07 10:43:06Z INFO Worker] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 10:43:06Z INFO Worker] Culture: en-US
+[2023-06-07 10:43:06Z INFO Worker] UI Culture: en-US
+[2023-06-07 10:43:06Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-06-07 10:43:06Z INFO ProcessChannel] Receiving message of length 23106, with hash 'cdbe30e7a78eebf7e7366a7e0f4cf8e4cc3eed8c25cfd94123f60fa1aba2f7cd'
+[2023-06-07 10:43:06Z INFO Worker] Message received.
+[2023-06-07 10:43:06Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/github-actions.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "a878fecf-9250-57e2-84e0-aae0213d4ecb",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 14,
+        "col": 19,
+        "lit": "Checkout submodules"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 15,
+              "col": 19,
+              "lit": "git submodule update --init --recursive"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "145553fb-1baa-5bc7-b18e-5469e21587f7",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 16,
+        "col": 19,
+        "lit": "Run unit test"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 17,
+              "col": 18,
+              "lit": "./unit-test.sh"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "8615dfaf-7ef8-510a-52bc-76337457853a",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-06-07 10:43:04+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "7"
+    },
+    "build.containerId": {
+      "value": "7236750"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/github-actions.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "unit-test"
+    },
+    "system.phaseId": {
+      "value": "f9b18aa4-1325-5d63-b757-65b914572d7c"
+    },
+    "system.phaseName": {
+      "value": "unit-test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "unit-test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "unit-test"
+    },
+    "system.jobDisplayName": {
+      "value": "unit-test"
+    },
+    "system.jobId": {
+      "value": "0e10f8dd-85b5-5bee-19c6-47fc7db6f171"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"Pages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.orchestrationId": {
+      "value": "bf446034-ffdf-421a-b988-f129b9063bb2.unit-test.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 31,
+    "planId": "bf446034-ffdf-421a-b988-f129b9063bb2",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/7",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "assignment-1-msamygawad"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "cu-ecen-aeld"
+    }
+  },
+  "timeline": {
+    "id": "bf446034-ffdf-421a-b988-f129b9063bb2",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "0e10f8dd-85b5-5bee-19c6-47fc7db6f171",
+  "jobDisplayName": "unit-test",
+  "jobName": "__default",
+  "jobContainer": {
+    "type": 0,
+    "file": 1,
+    "line": 10,
+    "col": 20,
+    "lit": "cuaesd/aesd-autotest:unit-test"
+  },
+  "requestId": 14,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "7537ca8c-9233-493e-9840-abd028f1afbc",
+          "ServerName": "wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/bf446034-ffdf-421a-b988-f129b9063bb2/timelines/bf446034-ffdf-421a-b988-f129b9063bb2/records/0e10f8dd-85b5-5bee-19c6-47fc7db6f171/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+        },
+        {
+          "k": "repository",
+          "v": "cu-ecen-aeld/assignment-1-msamygawad"
+        },
+        {
+          "k": "repository_owner",
+          "v": "cu-ecen-aeld"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "49594950"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/cu-ecen-aeld/assignment-1-msamygawad.git"
+        },
+        {
+          "k": "run_id",
+          "v": "5165783663"
+        },
+        {
+          "k": "run_number",
+          "v": "4"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "4"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "repository_id",
+          "v": "648703408"
+        },
+        {
+          "k": "actor_id",
+          "v": "64434690"
+        },
+        {
+          "k": "actor",
+          "v": "msamygawad"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "msamygawad"
+        },
+        {
+          "k": "workflow",
+          "v": "assignment-test"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "5fb88e843df686699c2c1334c798dcc5729173ee"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "msamygawad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "msamygawad"
+                              },
+                              {
+                                "k": "username",
+                                "v": "msamygawad"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "msamygawad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "msamygawad"
+                              },
+                              {
+                                "k": "username",
+                                "v": "msamygawad"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Init"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-06-04T00:49:04+03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "1a9d17e9da6b8b00e49ee2b5e946a5b4d4702d8f"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad/commit/30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad/compare/5fb88e843df6...30fa7a9dc2c7"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "msamygawad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "msamygawad"
+                          },
+                          {
+                            "k": "username",
+                            "v": "msamygawad"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "msamygawad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "msamygawad"
+                          },
+                          {
+                            "k": "username",
+                            "v": "msamygawad"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Init"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-06-04T00:49:04+03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "1a9d17e9da6b8b00e49ee2b5e946a5b4d4702d8f"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad/commit/30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": "Course Github Organization for University of Colorado at Boulder ECEN 5713 Advanced Embedded Software Development (previously 5013-002)"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 49594950.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "64434690+msamygawad@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "msamygawad"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1685720386.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "assignment-1-msamygawad created by GitHub Classroom"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "cu-ecen-aeld/assignment-1-msamygawad"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/cu-ecen-aeld/assignment-1-msamygawad.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad"
+                    },
+                    {
+                      "k": "id",
+                      "v": 648703408.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "Shell"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "key",
+                            "v": "mit"
+                          },
+                          {
+                            "k": "name",
+                            "v": "MIT License"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDc6TGljZW5zZTEz"
+                          },
+                          {
+                            "k": "spdx_id",
+                            "v": "MIT"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/licenses/mit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "assignment-1-msamygawad"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJqptsA"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "organization",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": null
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/cu-ecen-aeld"
+                          },
+                          {
+                            "k": "id",
+                            "v": 49594950.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "name",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1685828973.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 29.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:cu-ecen-aeld/assignment-1-msamygawad.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignment-1-msamygawad/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-06-03T20:48:17Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignment-1-msamygawad"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/64434690?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/msamygawad/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/msamygawad/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/msamygawad/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/msamygawad/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/msamygawad"
+                    },
+                    {
+                      "k": "id",
+                      "v": 64434690.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "msamygawad"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjY0NDM0Njkw"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/msamygawad/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/msamygawad/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/msamygawad/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/msamygawad/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/msamygawad/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/msamygawad"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "cu-ecen-aeld/assignment-1-msamygawad/.github/workflows/github-actions.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "30fa7a9dc2c7d8cd65c61203309c4de7d71b44e8"
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-06-07 10:43:06Z INFO JobRunner] Job ID 0e10f8dd-85b5-5bee-19c6-47fc7db6f171
+[2023-06-07 10:43:06Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5/
+[2023-06-07 10:43:06Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Worker.dll
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:06Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:06Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 10:43:06Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 10:43:06Z INFO ConfigurationStore] Read setting file: 299 chars
+[2023-06-07 10:43:06Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-07 10:43:07Z INFO Worker] Listening for cancel message from the channel.
+[2023-06-07 10:43:07Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-06-07 10:43:08Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-07 10:43:08Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/wxy5xWC0azK006j9VnyXTgu3ME2JPuDa08fqoPOT86bkPgaKb5/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/bf446034-ffdf-421a-b988-f129b9063bb2/timelines/bf446034-ffdf-421a-b988-f129b9063bb2/records/0e10f8dd-85b5-5bee-19c6-47fc7db6f171/feedstream?api-version=6.0-preview
+[2023-06-07 10:43:08Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Start process web console line queue.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Start process file upload queue.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Start results file upload queue.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-07 10:43:08Z INFO JobServerQueue] Start process timeline update queue.
+[2023-06-07 10:43:08Z INFO ExecutionContext] Initialize GitHub context
+[2023-06-07 10:43:08Z INFO ExecutionContext] Initialize Env context
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:08Z INFO JobRunner] Starting the job execution context.
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO JobRunner] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_tool'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:08Z INFO JobRunner] Getting job extension.
+[2023-06-07 10:43:08Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known config file 'SetupInfo': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.setup_info'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_PipelineMapping/cu-ecen-aeld/assignment-1-msamygawad/PipelineFolder.json
+[2023-06-07 10:43:08Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_tool'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 10:43:08Z INFO JobExtension] Downloading actions
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:08Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:08Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/ee0669bd1cc54295c223e0bb666b733df41de1c5' into /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/_temp_3e73c3da-f9e3-43f3-8510-58e942c081db/c7d9d6ed-d86f-49bb-ad73-05070ec79909.tar.gz.
+[2023-06-07 10:43:08Z INFO JobServer] Successfully started websocket client.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3fdc7027-0e90-437a-8291-faff7e791c91', success rate: 1/1.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-06-07 10:43:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3fdc7027-0e90-437a-8291-faff7e791c91', success rate: 1/1.
+[2023-06-07 10:43:09Z INFO ActionManager] Which: 'tar'
+[2023-06-07 10:43:09Z INFO ActionManager] Location: '/usr/bin/tar'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/tar'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Arguments: '-xzf "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/_temp_3e73c3da-f9e3-43f3-8510-58e942c081db/c7d9d6ed-d86f-49bb-ad73-05070ec79909.tar.gz"'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/_temp_3e73c3da-f9e3-43f3-8510-58e942c081db/_staging'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58919.
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] Process started with process id 58919, waiting for process exit.
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:09Z INFO ProcessInvokerWrapper] Finished process 58919 with exit code 0, and elapsed time 00:00:00.0143321.
+[2023-06-07 10:43:09Z INFO ActionManager] Finished getting action repository.
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:09Z INFO ActionManifestManager] Load schema file with definitions: [
+  "null",
+  "boolean",
+  "number",
+  "string",
+  "sequence",
+  "mapping",
+  "any",
+  "action-root",
+  "inputs",
+  "input",
+  "outputs",
+  "output-definition",
+  "runs",
+  "container-runs",
+  "container-runs-args",
+  "container-runs-env",
+  "node-runs",
+  "plugin-runs",
+  "composite-runs",
+  "composite-steps",
+  "composite-step",
+  "run-step",
+  "uses-step",
+  "container-runs-context",
+  "output-value",
+  "input-default-context",
+  "non-empty-string",
+  "string-steps-context",
+  "boolean-steps-context",
+  "step-env",
+  "step-if",
+  "step-with"
+]
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:09Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-06-07 10:43:09Z INFO ActionManager] Action node.js file: dist/index.js, no more preparation.
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:09Z INFO ActionManager] Load action that reference repository from '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/actions/checkout/v2'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:09Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-06-07 10:43:09Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-06-07 10:43:09Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-06-07 10:43:09Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-06-07 10:43:09Z INFO DockerCommandManager] Which: 'docker'
+[2023-06-07 10:43:09Z INFO DockerCommandManager] Location: '/usr/bin/docker'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO JobExtension] Adding .
+[2023-06-07 10:43:09Z INFO JobExtension] Adding .
+[2023-06-07 10:43:09Z INFO JobExtension] Adding .
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:09Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:10Z INFO JobExtension] Total accessible running process: 273.
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:10Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "3fdc7027-0e90-437a-8291-faff7e791c91",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-06-07T10:43:08.1514448Z",
+  "finishTime": "2023-06-07T10:43:10.0229748Z"
+}.
+[2023-06-07 10:43:10Z INFO JobRunner] Total job steps: 4.
+[2023-06-07 10:43:10Z INFO JobRunner] Run all job steps.
+[2023-06-07 10:43:10Z INFO StepsRunner] Processing step: DisplayName='Initialize containers'
+[2023-06-07 10:43:10Z INFO StepsRunner] Evaluating: success()
+[2023-06-07 10:43:10Z INFO StepsRunner] Result: true
+[2023-06-07 10:43:10Z INFO StepsRunner] Starting the step.
+[2023-06-07 10:43:10Z INFO ExecutionContext] Reserve record order 6 to 10 for post job actions.
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:10Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Server.APIVersion}}''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58922.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 58922, waiting for process exit.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Finished process 58922 with exit code 0, and elapsed time 00:00:00.0463337.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'version --format '{{.Client.APIVersion}}''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58936.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 58936, waiting for process exit.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Finished process 58936 with exit code 0, and elapsed time 00:00:00.0140231.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'ps --all --quiet --no-trunc --filter "label=badb32"'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58949.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 58949, waiting for process exit.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Finished process 58949 with exit code 0, and elapsed time 00:00:00.0093309.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'network prune --force --filter "label=badb32"'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58956.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 58956, waiting for process exit.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Finished process 58956 with exit code 0, and elapsed time 00:00:00.0105262.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'network create --label badb32 github_network_14c10f20f238407ab323898e7c7a3523'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 58963.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 58963, waiting for process exit.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Finished process 58963 with exit code 0, and elapsed time 00:00:00.0481597.
+[2023-06-07 10:43:10Z INFO ContainerOperationProvider] Container name: 5eeb451f3e1b4109b81553eb2a13e87c
+[2023-06-07 10:43:10Z INFO ContainerOperationProvider] Container image: cuaesd/aesd-autotest:unit-test
+[2023-06-07 10:43:10Z INFO ContainerOperationProvider] Container options: 
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Arguments: 'pull cuaesd/aesd-autotest:unit-test'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59025.
+[2023-06-07 10:43:10Z INFO ProcessInvokerWrapper] Process started with process id 59025, waiting for process exit.
+[2023-06-07 10:43:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3fdc7027-0e90-437a-8291-faff7e791c91', success rate: 1/1.
+[2023-06-07 10:43:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '55d4bc09-7a91-4ce0-a66f-2b7749014e06', success rate: 1/1.
+[2023-06-07 10:43:10Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Finished process 59025 with exit code 0, and elapsed time 00:00:01.6581428.
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_tool'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_tool'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:11Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Arguments: 'create --name 5eeb451f3e1b4109b81553eb2a13e87c_cuaesdaesdautotestunittest_834617 --label badb32 --workdir /__w/assignment-1-msamygawad/assignment-1-msamygawad --network github_network_14c10f20f238407ab323898e7c7a3523  -e "HOME=/github/home" -e GITHUB_ACTIONS=true -e CI=true -v "/var/run/docker.sock":"/var/run/docker.sock" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work":"/__w" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals":"/__e":ro -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp":"/__w/_temp" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions":"/__w/_actions" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_tool":"/__w/_tool" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_github_home":"/github/home" -v "/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_github_workflow":"/github/workflow" --entrypoint "tail" cuaesd/aesd-autotest:unit-test "-f" "/dev/null"'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59034.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Process started with process id 59034, waiting for process exit.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Finished process 59034 with exit code 0, and elapsed time 00:00:00.0287612.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Arguments: 'start cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59041.
+[2023-06-07 10:43:11Z INFO ProcessInvokerWrapper] Process started with process id 59041, waiting for process exit.
+[2023-06-07 10:43:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record '55d4bc09-7a91-4ce0-a66f-2b7749014e06', success rate: 1/1.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Finished process 59041 with exit code 0, and elapsed time 00:00:00.1781567.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Arguments: 'ps --all --filter id=cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 --filter status=running --no-trunc --format "{{.ID}} {{.Status}}"'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59120.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Process started with process id 59120, waiting for process exit.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Finished process 59120 with exit code 0, and elapsed time 00:00:00.0098499.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Arguments: 'inspect --format "{{range .Config.Env}}{{println .}}{{end}}" cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59126.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Process started with process id 59126, waiting for process exit.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Finished process 59126 with exit code 0, and elapsed time 00:00:00.0144738.
+[2023-06-07 10:43:12Z INFO StepsRunner] Step result: 
+[2023-06-07 10:43:12Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "initialize_containers",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "55d4bc09-7a91-4ce0-a66f-2b7749014e06",
+  "stepContextName": "55d4bc097a914ce0a66f2b7749014e06",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 3,
+  "startTime": "2023-06-07T10:43:10.0371142Z",
+  "finishTime": "2023-06-07T10:43:12.1104635Z"
+}.
+[2023-06-07 10:43:12Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-06-07 10:43:12Z INFO StepsRunner] Current state: job state = ''
+[2023-06-07 10:43:12Z INFO StepsRunner] Processing step: DisplayName='Run actions/checkout@v2'
+[2023-06-07 10:43:12Z INFO StepsRunner] Evaluating: success()
+[2023-06-07 10:43:12Z INFO StepsRunner] Result: true
+[2023-06-07 10:43:12Z INFO StepsRunner] Starting the step.
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:12Z INFO ActionManager] Load action that reference repository from '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/actions/checkout/v2'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-06-07 10:43:12Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-06-07 10:43:12Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-06-07 10:43:12Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:12Z INFO ExecutionContext] Write event payload to /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_github_workflow/event.json
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:12Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "cu-ecen-aeld/assignment-1-msamygawad"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-06-07 10:43:12Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:12Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command error
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command group
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-06-07 10:43:12Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Arguments: 'exec  cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 sh -c "cat /etc/*release | grep ^ID"'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59133.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Process started with process id 59133, waiting for process exit.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Finished process 59133 with exit code 0, and elapsed time 00:00:00.0673305.
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:12Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Arguments: 'exec -i --workdir /__w/assignment-1-msamygawad/assignment-1-msamygawad -e "INPUT_REPOSITORY" -e "INPUT_REF" -e "INPUT_TOKEN" -e "INPUT_SSH-KEY" -e "INPUT_SSH-KNOWN-HOSTS" -e "INPUT_SSH-STRICT" -e "INPUT_PERSIST-CREDENTIALS" -e "INPUT_PATH" -e "INPUT_CLEAN" -e "INPUT_FETCH-DEPTH" -e "INPUT_LFS" -e "INPUT_SUBMODULES" -e "INPUT_SET-SAFE-DIRECTORY" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 /__e/node12/bin/node /__w/_actions/actions/checkout/v2/dist/index.js'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59161.
+[2023-06-07 10:43:12Z INFO ProcessInvokerWrapper] Process started with process id 59161, waiting for process exit.
+[2023-06-07 10:43:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record '55d4bc09-7a91-4ce0-a66f-2b7749014e06', success rate: 1/1.
+[2023-06-07 10:43:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a878fecf-9250-57e2-84e0-aae0213d4ecb', success rate: 1/1.
+[2023-06-07 10:43:12Z INFO AddMaskCommandExtension] Add new secret mask with length of 76
+[2023-06-07 10:43:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a878fecf-9250-57e2-84e0-aae0213d4ecb', success rate: 1/1.
+[2023-06-07 10:43:12Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] Finished process 59161 with exit code 0, and elapsed time 00:00:00.9448913.
+[2023-06-07 10:43:13Z INFO CreateStepSummaryCommand] Step Summary file (/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_runner_file_commands/step_summary_a52930c2-c8fe-4464-bc55-721e42877f59) is empty; skipping attachment upload
+[2023-06-07 10:43:13Z INFO StepsRunner] Step result: 
+[2023-06-07 10:43:13Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node12",
+  "stage": "Main",
+  "stepId": "a878fecf-9250-57e2-84e0-aae0213d4ecb",
+  "stepContextName": "__actions_checkout",
+  "hasPreStep": false,
+  "hasPostStep": true,
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-06-07T10:43:12.1111379Z",
+  "finishTime": "2023-06-07T10:43:13.1814228Z"
+}.
+[2023-06-07 10:43:13Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-06-07 10:43:13Z INFO StepsRunner] Current state: job state = ''
+[2023-06-07 10:43:13Z INFO StepsRunner] Processing step: DisplayName='Checkout submodules'
+[2023-06-07 10:43:13Z INFO StepsRunner] Evaluating: success()
+[2023-06-07 10:43:13Z INFO StepsRunner] Result: true
+[2023-06-07 10:43:13Z INFO StepsRunner] Starting the step.
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:13Z INFO ExecutionContext] Write event payload to /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_github_workflow/event.json
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:13Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-06-07 10:43:13Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command error
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command group
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-06-07 10:43:13Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:13Z INFO ScriptHandler] Which: 'bash'
+[2023-06-07 10:43:13Z INFO ScriptHandler] Location: '/usr/bin/bash'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:13Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Arguments: 'exec -i --workdir /__w/assignment-1-msamygawad/assignment-1-msamygawad -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 sh -e /__w/_temp/cd3bafb7-fc1b-498c-add2-0837f669dd58.sh'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59287.
+[2023-06-07 10:43:13Z INFO ProcessInvokerWrapper] Process started with process id 59287, waiting for process exit.
+[2023-06-07 10:43:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a878fecf-9250-57e2-84e0-aae0213d4ecb', success rate: 1/1.
+[2023-06-07 10:43:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record '145553fb-1baa-5bc7-b18e-5469e21587f7', success rate: 1/1.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Finished process 59287 with exit code 1, and elapsed time 00:00:01.1654980.
+[2023-06-07 10:43:14Z INFO CreateStepSummaryCommand] Step Summary file (/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_runner_file_commands/step_summary_8c776547-1fae-4a7d-be24-97a5140b5a3b) is empty; skipping attachment upload
+[2023-06-07 10:43:14Z INFO StepsRunner] Step result: Failed
+[2023-06-07 10:43:14Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "sh",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "145553fb-1baa-5bc7-b18e-5469e21587f7",
+  "stepContextName": "__run",
+  "result": "failed",
+  "errorMessages": [
+    "Process completed with exit code 1."
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-06-07T10:43:13.1818734Z",
+  "finishTime": "2023-06-07T10:43:14.3663544Z"
+}.
+[2023-06-07 10:43:14Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2023-06-07 10:43:14Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-06-07 10:43:14Z INFO StepsRunner] Processing step: DisplayName='Run unit test'
+[2023-06-07 10:43:14Z INFO StepsRunner] Evaluating: success()
+[2023-06-07 10:43:14Z INFO StepsRunner] Result: false
+[2023-06-07 10:43:14Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2023-06-07 10:43:14Z INFO StepsRunner] No need for updating job result with current step result 'Skipped'.
+[2023-06-07 10:43:14Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-06-07 10:43:14Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v2'
+[2023-06-07 10:43:14Z INFO StepsRunner] Evaluating: always()
+[2023-06-07 10:43:14Z INFO StepsRunner] Result: true
+[2023-06-07 10:43:14Z INFO StepsRunner] Starting the step.
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:14Z INFO ActionManager] Load action that reference repository from '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions/actions/checkout/v2'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_actions'
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 58,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 59,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 62,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "true"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node12",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2023-06-07 10:43:14Z INFO ActionManager] Action pre node.js file: N/A.
+[2023-06-07 10:43:14Z INFO ActionManager] Action node.js file: dist/index.js.
+[2023-06-07 10:43:14Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:14Z INFO ExecutionContext] Write event payload to /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_github_workflow/event.json
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp'
+[2023-06-07 10:43:14Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "cu-ecen-aeld/assignment-1-msamygawad"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 58,
+  "col": 14,
+  "lit": "1"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 61,
+  "col": 14,
+  "lit": "false"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2023-06-07 10:43:14Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "true"
+}
+[2023-06-07 10:43:14Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command error
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command group
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-06-07 10:43:14Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Arguments: 'exec  cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 sh -c "cat /etc/*release | grep ^ID"'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59377.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Process started with process id 59377, waiting for process exit.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Finished process 59377 with exit code 0, and elapsed time 00:00:00.0691943.
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Arguments: 'exec -i --workdir /__w/assignment-1-msamygawad/assignment-1-msamygawad -e "STATE_isPost" -e "STATE_setSafeDirectory" -e "STATE_repositoryPath" -e "INPUT_REPOSITORY" -e "INPUT_REF" -e "INPUT_TOKEN" -e "INPUT_SSH-KEY" -e "INPUT_SSH-KNOWN-HOSTS" -e "INPUT_SSH-STRICT" -e "INPUT_PERSIST-CREDENTIALS" -e "INPUT_PATH" -e "INPUT_CLEAN" -e "INPUT_FETCH-DEPTH" -e "INPUT_LFS" -e "INPUT_SUBMODULES" -e "INPUT_SET-SAFE-DIRECTORY" -e "GITHUB_JOB" -e "GITHUB_REF" -e "GITHUB_SHA" -e "GITHUB_REPOSITORY" -e "GITHUB_REPOSITORY_OWNER" -e "GITHUB_REPOSITORY_OWNER_ID" -e "GITHUB_RUN_ID" -e "GITHUB_RUN_NUMBER" -e "GITHUB_RETENTION_DAYS" -e "GITHUB_RUN_ATTEMPT" -e "GITHUB_REPOSITORY_ID" -e "GITHUB_ACTOR_ID" -e "GITHUB_ACTOR" -e "GITHUB_TRIGGERING_ACTOR" -e "GITHUB_WORKFLOW" -e "GITHUB_HEAD_REF" -e "GITHUB_BASE_REF" -e "GITHUB_EVENT_NAME" -e "GITHUB_SERVER_URL" -e "GITHUB_API_URL" -e "GITHUB_GRAPHQL_URL" -e "GITHUB_REF_NAME" -e "GITHUB_REF_PROTECTED" -e "GITHUB_REF_TYPE" -e "GITHUB_WORKFLOW_REF" -e "GITHUB_WORKFLOW_SHA" -e "GITHUB_WORKSPACE" -e "GITHUB_ACTION" -e "GITHUB_EVENT_PATH" -e "GITHUB_ACTION_REPOSITORY" -e "GITHUB_ACTION_REF" -e "GITHUB_PATH" -e "GITHUB_ENV" -e "GITHUB_STEP_SUMMARY" -e "GITHUB_STATE" -e "GITHUB_OUTPUT" -e "RUNNER_OS" -e "RUNNER_ARCH" -e "RUNNER_NAME" -e "RUNNER_TOOL_CACHE" -e "RUNNER_TEMP" -e "RUNNER_WORKSPACE" -e "ACTIONS_RUNTIME_URL" -e "ACTIONS_RUNTIME_TOKEN" -e "ACTIONS_CACHE_URL" cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273 /__e/node12/bin/node /__w/_actions/actions/checkout/v2/dist/index.js'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59404.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Process started with process id 59404, waiting for process exit.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '145553fb-1baa-5bc7-b18e-5469e21587f7', success rate: 1/1.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bbf06827-490f-4d2f-84c8-7eda226aee44', success rate: 1/1.
+[2023-06-07 10:43:14Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Finished process 59404 with exit code 0, and elapsed time 00:00:00.2084581.
+[2023-06-07 10:43:14Z INFO CreateStepSummaryCommand] Step Summary file (/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp/_runner_file_commands/step_summary_28bdfd59-d728-4fc9-93f7-f66778475b1c) is empty; skipping attachment upload
+[2023-06-07 10:43:14Z INFO StepsRunner] Step result: 
+[2023-06-07 10:43:14Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v2",
+  "type": "node12",
+  "stage": "Post",
+  "stepId": "bbf06827-490f-4d2f-84c8-7eda226aee44",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-06-07T10:43:14.3672305Z",
+  "finishTime": "2023-06-07T10:43:14.6527368Z"
+}.
+[2023-06-07 10:43:14Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-06-07 10:43:14Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-06-07 10:43:14Z INFO StepsRunner] Processing step: DisplayName='Stop containers'
+[2023-06-07 10:43:14Z INFO StepsRunner] Evaluating: always()
+[2023-06-07 10:43:14Z INFO StepsRunner] Result: true
+[2023-06-07 10:43:14Z INFO StepsRunner] Starting the step.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Arguments: 'rm --force cff772d2142f36ffea233bd4cbd348d78b74bd6fd5dc1c7e4a003d0b5e572273'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59509.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Process started with process id 59509, waiting for process exit.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'bbf06827-490f-4d2f-84c8-7eda226aee44', success rate: 1/1.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '84608db1-890e-46bf-a228-8d409be40473', success rate: 1/1.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Finished process 59509 with exit code 0, and elapsed time 00:00:00.1417654.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/docker'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Arguments: 'network rm github_network_14c10f20f238407ab323898e7c7a3523'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/assignment-1-msamygawad/assignment-1-msamygawad'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 59545.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Process started with process id 59545, waiting for process exit.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 10:43:14Z INFO ProcessInvokerWrapper] Finished process 59545 with exit code 0, and elapsed time 00:00:00.0977841.
+[2023-06-07 10:43:14Z INFO StepsRunner] Step result: 
+[2023-06-07 10:43:14Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-06-07 10:43:14Z INFO StepsRunner] Current state: job state = 'Failed'
+[2023-06-07 10:43:14Z INFO JobRunner] Finalize job.
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:14Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:14Z INFO JobExtension] Initialize Env context
+[2023-06-07 10:43:14Z INFO JobExtension] Initialize steps context
+[2023-06-07 10:43:14Z INFO JobExtension] Total accessible running process: 285.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 56233 (kworker/u8:3-netns)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/56233/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/56233/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 56877 (kworker/u8:1-ext4-rsv-conversion)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/56877/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/56877/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 57383 (kworker/3:9-rcu_gp)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/57383/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/57383/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 58838 (kworker/2:0-events)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/58838/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/58838/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 58849 (kworker/1:13-rcu_gp)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/58849/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/58849/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 58851 (kworker/1:15-events)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/58851/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/58851/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 58969 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/58969/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/58969/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 58979 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/58979/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/58979/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59051 (kworker/u8:2-events_unbound)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59051/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59051/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59054 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59054/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59054/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59055 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59055/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59055/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59056 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59056/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59056/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59057 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59057/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59057/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59058 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59058/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59058/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59059 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59059/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59059/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59060 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59060/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59060/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59061 (systemd-udevd)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59061/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59061/environ' is denied.
+[2023-06-07 10:43:14Z INFO JobExtension] Inspecting process environment variables. PID: 59540 (kworker/3:0-events)
+[2023-06-07 10:43:14Z INFO LinuxProcessExtensions] Read env from /proc/59540/environ
+[2023-06-07 10:43:14Z WARN JobExtension] Ignore exception during read process environment variables: Access to the path '/proc/59540/environ' is denied.
+[2023-06-07 10:43:14Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "8f027a59-6a20-4d09-a0dd-04d3e365c2d9",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-06-07T10:43:14.9085229Z",
+  "finishTime": "2023-06-07T10:43:14.9567289Z"
+}.
+[2023-06-07 10:43:14Z INFO JobRunner] Job result after all job steps finish: Failed
+[2023-06-07 10:43:14Z INFO JobRunner] Completing the job execution context.
+[2023-06-07 10:43:14Z INFO JobRunner] Shutting down the job server queue.
+[2023-06-07 10:43:14Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-06-07 10:43:15Z INFO JobServerQueue] All queue process task stopped.
+[2023-06-07 10:43:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '84608db1-890e-46bf-a228-8d409be40473', success rate: 1/1.
+[2023-06-07 10:43:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '8f027a59-6a20-4d09-a0dd-04d3e365c2d9', success rate: 1/1.
+[2023-06-07 10:43:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0e10f8dd-85b5-5bee-19c6-47fc7db6f171', success rate: 1/1.
+[2023-06-07 10:43:15Z INFO JobServerQueue] Web console line queue drained.
+[2023-06-07 10:43:15Z INFO JobServerQueue] Uploading 5 files in one shot.
+[2023-06-07 10:43:17Z INFO JobServerQueue] Try to upload 5 log files or attachments, success rate: 5/5.
+[2023-06-07 10:43:17Z INFO JobServerQueue] File upload queue drained.
+[2023-06-07 10:43:17Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-07 10:43:17Z INFO JobServerQueue] Results upload queue drained.
+[2023-06-07 10:43:17Z INFO JobServerQueue] Timeline update queue drained.
+[2023-06-07 10:43:17Z INFO JobServerQueue] Disposing job server ...
+[2023-06-07 10:43:17Z INFO JobServerQueue] Disposing results server ...
+[2023-06-07 10:43:17Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-06-07 10:43:17Z INFO TempDirectoryManager] Cleaning runner temp folder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_work/_temp
+[2023-06-07 10:43:17Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 10:43:17Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 10:43:17Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 10:43:17Z INFO HostContext] Well known config file 'Telemetry': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag/.telemetry'
+[2023-06-07 10:43:17Z INFO JobRunner] Raising job completed event
+[2023-06-07 10:43:17Z INFO Worker] Job completed.

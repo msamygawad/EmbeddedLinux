@@ -1,0 +1,170 @@
+[2023-06-07 12:03:26Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:03:26Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-07 12:03:26Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-07 12:03:26Z INFO Listener] Version: 2.304.0
+[2023-06-07 12:03:26Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-07 12:03:26Z INFO Listener] Culture: en-US
+[2023-06-07 12:03:26Z INFO Listener] UI Culture: en-US
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO CommandLineParser] Parse
+[2023-06-07 12:03:26Z INFO CommandLineParser] Parsing 2 args
+[2023-06-07 12:03:26Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:03:26Z INFO CommandLineParser] HasArgs: False
+[2023-06-07 12:03:26Z INFO CommandLineParser] Adding Command: run
+[2023-06-07 12:03:26Z INFO CommandLineParser] parsing argument
+[2023-06-07 12:03:26Z INFO CommandLineParser] HasArgs: True
+[2023-06-07 12:03:26Z INFO CommandLineParser] arg: check
+[2023-06-07 12:03:26Z INFO Listener] Arguments parsed
+[2023-06-07 12:03:26Z INFO Runner] ExecuteCommand
+[2023-06-07 12:03:26Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/Runner.Listener.dll
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.runner
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.credentials_migrated
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:26Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:26Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service'
+[2023-06-07 12:03:26Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/.service
+[2023-06-07 12:03:26Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-07 12:03:26Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-07 12:03:26Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-07 12:03:26Z INFO CommandSettings] Flag 'check': 'True'
+[2023-06-07 12:03:26Z INFO CommandSettings] Arg 'url': ''
+[2023-06-07 12:03:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-07 12:03:26Z INFO PromptManager] ReadValue
+[2023-06-07 12:03:26Z INFO Terminal] WRITE: What is the URL of your repository? 
+[2023-06-07 12:03:26Z INFO Terminal] READ LINE
+[2023-06-07 12:03:43Z INFO Terminal] Read value: 'https://github.com/cu-ecen-aeld/assignment-2-msamygawad'
+[2023-06-07 12:03:43Z INFO CommandSettings] Arg 'pat': ''
+[2023-06-07 12:03:43Z INFO CommandSettings] Flag 'unattended': 'False'
+[2023-06-07 12:03:43Z INFO PromptManager] ReadValue
+[2023-06-07 12:03:43Z INFO Terminal] WRITE: What is your GitHub personal access token? 
+[2023-06-07 12:03:43Z INFO Terminal] READ SECRET
+[2023-06-07 12:03:49Z INFO Terminal] Read value: '***'
+[2023-06-07 12:03:49Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Listener.Check.ICheckExtension'
+[2023-06-07 12:03:49Z INFO ExtensionManager] Creating instance: GitHub.Runner.Listener.Check.InternetCheck, Runner.Listener
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 12:03:49Z INFO ExtensionManager] Creating instance: GitHub.Runner.Listener.Check.ActionsCheck, Runner.Listener
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 12:03:49Z INFO ExtensionManager] Creating instance: GitHub.Runner.Listener.Check.GitCheck, Runner.Listener
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 12:03:49Z INFO ExtensionManager] Creating instance: GitHub.Runner.Listener.Check.NodeJsCheck, Runner.Listener
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:49Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag'
+[2023-06-07 12:03:49Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:49Z INFO Terminal] WRITE LINE: **  Check:               Internet Connection
+[2023-06-07 12:03:49Z INFO Terminal] WRITE LINE: **  Description:         Check if the Actions runner has internet access.
+[2023-06-07 12:03:49Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **                                            P A S S                                                               **
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: ** Log: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag/InternetCheck_20230607-120349-utc.log
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **  Check:               GitHub Actions Connection
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **  Description:         Check if the Actions runner has access to the GitHub Actions service.
+[2023-06-07 12:03:50Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **                                            P A S S                                                               **
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: ** Log: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag/ActionsCheck_20230607-120349-utc.log
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **  Check:               Git Certificate/Proxy Validation
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **  Description:         Check if the Git CLI can access GitHub.com or GitHub Enterprise Server.
+[2023-06-07 12:03:51Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:51Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:51Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   File name: '/usr/bin/git'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Arguments: ' ls-remote --exit-code https://gh:***@github.com/actions/checkout HEAD'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9341.
+[2023-06-07 12:03:51Z INFO ProcessInvokerWrapper] Process started with process id 9341, waiting for process exit.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] Finished process 9341 with exit code 0, and elapsed time 00:00:00.5449371.
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                            P A S S                                                               **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: ** Log: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag/GitCheck_20230607-120349-utc.log
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **  Check:               Node.js Certificate/Proxy Validation
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **  Description:         Check if Node.js has access to GitHub.com or GitHub Enterprise Server.
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals'
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin'
+[2023-06-07 12:03:52Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/externals/node16/bin/node'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Arguments: '"/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/bin/checkScripts/makeWebRequest.js"'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] Updated oom_score_adj to 500 for PID: 9345.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] Process started with process id 9345, waiting for process exit.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-07 12:03:52Z INFO ProcessInvokerWrapper] Finished process 9345 with exit code 0, and elapsed time 00:00:00.4881387.
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                            P A S S                                                               **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **                                                                                                                  **
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: ** Log: /home/msamy/Desktop/EmbeddedLinux/C1_Assign/actions-runner/_diag/NodeJsCheck_20230607-120349-utc.log
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: **********************************************************************************************************************
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:52Z INFO Terminal] WRITE LINE: 
+[2023-06-07 12:03:52Z INFO Listener] Runner execution has finished with return code 0
