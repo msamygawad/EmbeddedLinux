@@ -1,0 +1,6 @@
+
+main3 : main3.c .c
+	gcc -Wall -o main3 main3.c
+	gcc -Wall -o main2 main2.c
+clean:
+	rm -rf main3 main2

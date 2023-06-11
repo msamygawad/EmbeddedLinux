@@ -1,0 +1,4 @@
+tomato 50 egp june 12
+potato 30 egp june 13
+rice 50 egp june 14
+beans 30 egp june 15

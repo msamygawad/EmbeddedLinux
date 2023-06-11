@@ -7,3 +7,6 @@
 [submodule "Testing/testingOnly"]
 	path = Testing/testingOnly
 	url = git@github.com:msamygawad/testingOnly.git
+[submodule "C1_Assign/assignment-3-msamygawad"]
+	path = C1_Assign/assignment-3-msamygawad
+	url = git@github.com:cu-ecen-aeld/assignments-3-and-later-msamygawad.git

@@ -1,0 +1,12 @@
+﻿{
+  "repositoryName": "cu-ecen-aeld/assignments-3-and-later-msamygawad",
+  "pipelineDirectory": "assignments-3-and-later-msamygawad",
+  "workspaceDirectory": "assignments-3-and-later-msamygawad/assignments-3-and-later-msamygawad",
+  "repositories": {
+    "cu-ecen-aeld/assignments-3-and-later-msamygawad": {
+      "repositoryPath": "assignments-3-and-later-msamygawad/assignments-3-and-later-msamygawad",
+      "lastRunOn": "06/10/2023 02:54:09 +03:00"
+    }
+  },
+  "lastRunOn": "06/10/2023 02:59:22 +03:00"
+}
