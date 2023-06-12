@@ -1,0 +1,25 @@
+    //update packages
+sudo apt update
+
+    //Install <pkg_name> Package
+sudo apt install <pkg_name>
+
+    //Remove <pkg_name> Package
+sudo apt remove <pkg_name>
+
+    //Remove <pkg_name> Package with configuration files
+sudo apt purge <pkg_name>
+
+    //install .deb package
+sudo dpkg -i <pkg_full_path>.deb
+
+    //adding sub module to repo
+git submodule add <repository_url> <destination_path>
+git commit -m "Add submodule: <repository_name>"
+git push
+
+    //update sub-module in git, use <submodule-name> to update specific submodule
+    //or leave it blank to update all submodules
+git submodule update --init --recursive <submodule-name>
+git commit -m "Add submodule: <repository_name>"
+git push

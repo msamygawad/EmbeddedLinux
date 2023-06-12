@@ -1,0 +1,1544 @@
+[2023-06-11 13:20:14Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner'
+[2023-06-11 13:20:14Z INFO Worker] Version: 2.304.0
+[2023-06-11 13:20:14Z INFO Worker] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-11 13:20:14Z INFO Worker] Culture: en-US
+[2023-06-11 13:20:14Z INFO Worker] UI Culture: en-US
+[2023-06-11 13:20:14Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-06-11 13:20:14Z INFO ProcessChannel] Receiving message of length 25160, with hash '41b38241a3f3d1b3cf85ff5f1dd058b5ceab8f1491c7e8c540b2772a4a4954cd'
+[2023-06-11 13:20:14Z INFO Worker] Message received.
+[2023-06-11 13:20:14Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/github-actions.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "repository",
+        "name": "actions/checkout",
+        "ref": "v2",
+        "repositoryType": "GitHub",
+        "path": ""
+      },
+      "contextName": "__actions_checkout",
+      "condition": "success()",
+      "id": "5ae3cfb7-d7d4-55cf-e765-f7829c54f157",
+      "name": "__actions_checkout"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 23,
+        "col": 19,
+        "lit": "Checkout submodules"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 24,
+              "col": 19,
+              "lit": "git submodule update --init --recursive"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "0358dd64-d4c6-52fe-1d1f-54fa3c1bbc5e",
+      "name": "__run"
+    },
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "displayNameToken": {
+        "type": 0,
+        "file": 1,
+        "line": 25,
+        "col": 19,
+        "lit": "Run full test"
+      },
+      "contextName": "__run_2",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 26,
+              "col": 18,
+              "lit": "./full-test.sh"
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "65a7d644-3062-544f-df76-4b95bcf50146",
+      "name": "__run_2"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": ""
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-06-11 13:20:11+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "5"
+    },
+    "build.containerId": {
+      "value": "3341828"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/github-actions.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "full-test"
+    },
+    "system.phaseId": {
+      "value": "ab5579c2-8327-5dba-a8ef-b554bdd0f462"
+    },
+    "system.phaseName": {
+      "value": "full-test"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "full-test.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "full-test"
+    },
+    "system.jobDisplayName": {
+      "value": "full-test"
+    },
+    "system.jobId": {
+      "value": "a047640a-23da-5e9b-1ef8-917a09b3753a"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Actions\":\"write\",\"Checks\":\"write\",\"Contents\":\"write\",\"Deployments\":\"write\",\"Discussions\":\"write\",\"Issues\":\"write\",\"Metadata\":\"read\",\"Packages\":\"write\",\"Pages\":\"write\",\"PullRequests\":\"write\",\"RepositoryProjects\":\"write\",\"SecurityEvents\":\"write\",\"Statuses\":\"write\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerEnvironment": {
+      "value": "self-hosted"
+    },
+    "system.orchestrationId": {
+      "value": "d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f.full-test.__default"
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 31,
+    "planId": "d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/5",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "assignments-3-and-later-msamygawad"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "cu-ecen-aeld"
+    }
+  },
+  "timeline": {
+    "id": "d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "a047640a-23da-5e9b-1ef8-917a09b3753a",
+  "jobDisplayName": "full-test",
+  "jobName": "__default",
+  "jobContainer": {
+    "type": 0,
+    "file": 1,
+    "line": 19,
+    "col": 20,
+    "lit": "cuaesd/aesd-autotest:assignment3"
+  },
+  "requestId": 6,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "d16bebdd-4811-483d-b825-101f1ff61fd9",
+          "ServerName": "vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f/timelines/d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f/records/a047640a-23da-5e9b-1ef8-917a09b3753a/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/master"
+        },
+        {
+          "k": "sha",
+          "v": "a84ae5179c155224aebbe954ff8957a47d04d720"
+        },
+        {
+          "k": "repository",
+          "v": "cu-ecen-aeld/assignments-3-and-later-msamygawad"
+        },
+        {
+          "k": "repository_owner",
+          "v": "cu-ecen-aeld"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "49594950"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad.git"
+        },
+        {
+          "k": "run_id",
+          "v": "5235689571"
+        },
+        {
+          "k": "run_number",
+          "v": "5"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repo-self-hosted-runners-disabled",
+          "v": false
+        },
+        {
+          "k": "repository_id",
+          "v": "651684084"
+        },
+        {
+          "k": "actor_id",
+          "v": "64434690"
+        },
+        {
+          "k": "actor",
+          "v": "msamygawad"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "msamygawad"
+        },
+        {
+          "k": "workflow",
+          "v": "assignment-test"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "push"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "after",
+                "v": "a84ae5179c155224aebbe954ff8957a47d04d720"
+              },
+              {
+                "k": "base_ref",
+                "v": null
+              },
+              {
+                "k": "before",
+                "v": "538a909603f4a0f26871da6c9f1350ffd90c473a"
+              },
+              {
+                "k": "commits",
+                "v": {
+                  "t": 1,
+                  "a": [
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "walkes@colorado.edu"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "93a6e558acb7295c43ad3c58ae22999437d23466"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Use assignment3 container image"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2022-05-22T16:18:15-06:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "af7e254c3be950ee77af7b3ce85a99254a237b95"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad/commit/93a6e558acb7295c43ad3c58ae22999437d23466"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "danwalkes@trellis-logic.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "Dan Walkes"
+                              },
+                              {
+                                "k": "username",
+                                "v": "dwalkes"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "c93ab2ad35a5eb8d80b54defcb6c8e1472663c4d"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge branch 'assignment3-part-1' into assignment3-part-2"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-01-14T18:28:56-07:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "916f8ab6c13fd10bdadf15357d47caf576474229"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad/commit/c93ab2ad35a5eb8d80b54defcb6c8e1472663c4d"
+                        }
+                      ]
+                    },
+                    {
+                      "t": 2,
+                      "d": [
+                        {
+                          "k": "author",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "msamygawad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "msamygawad"
+                              },
+                              {
+                                "k": "username",
+                                "v": "msamygawad"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "committer",
+                          "v": {
+                            "t": 2,
+                            "d": [
+                              {
+                                "k": "email",
+                                "v": "msamygawad@gmail.com"
+                              },
+                              {
+                                "k": "name",
+                                "v": "msamygawad"
+                              },
+                              {
+                                "k": "username",
+                                "v": "msamygawad"
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "k": "distinct",
+                          "v": true
+                        },
+                        {
+                          "k": "id",
+                          "v": "a84ae5179c155224aebbe954ff8957a47d04d720"
+                        },
+                        {
+                          "k": "message",
+                          "v": "Merge remote-tracking branch 'assignments-base/assignment3-part-2'"
+                        },
+                        {
+                          "k": "timestamp",
+                          "v": "2023-06-11T16:19:30+03:00"
+                        },
+                        {
+                          "k": "tree_id",
+                          "v": "95674b903e99201e996ed8249aee4810dacc91cd"
+                        },
+                        {
+                          "k": "url",
+                          "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad/commit/a84ae5179c155224aebbe954ff8957a47d04d720"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "compare",
+                "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad/compare/538a909603f4...a84ae5179c15"
+              },
+              {
+                "k": "created",
+                "v": false
+              },
+              {
+                "k": "deleted",
+                "v": false
+              },
+              {
+                "k": "forced",
+                "v": false
+              },
+              {
+                "k": "head_commit",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "author",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "msamygawad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "msamygawad"
+                          },
+                          {
+                            "k": "username",
+                            "v": "msamygawad"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "committer",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "email",
+                            "v": "msamygawad@gmail.com"
+                          },
+                          {
+                            "k": "name",
+                            "v": "msamygawad"
+                          },
+                          {
+                            "k": "username",
+                            "v": "msamygawad"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "distinct",
+                      "v": true
+                    },
+                    {
+                      "k": "id",
+                      "v": "a84ae5179c155224aebbe954ff8957a47d04d720"
+                    },
+                    {
+                      "k": "message",
+                      "v": "Merge remote-tracking branch 'assignments-base/assignment3-part-2'"
+                    },
+                    {
+                      "k": "timestamp",
+                      "v": "2023-06-11T16:19:30+03:00"
+                    },
+                    {
+                      "k": "tree_id",
+                      "v": "95674b903e99201e996ed8249aee4810dacc91cd"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad/commit/a84ae5179c155224aebbe954ff8957a47d04d720"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "organization",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                    },
+                    {
+                      "k": "description",
+                      "v": "Course Github Organization for University of Colorado at Boulder ECEN 5713 Advanced Embedded Software Development (previously 5013-002)"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/events"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/hooks"
+                    },
+                    {
+                      "k": "id",
+                      "v": 49594950.0
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/issues"
+                    },
+                    {
+                      "k": "login",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/members{/member}"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                    },
+                    {
+                      "k": "public_members_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/public_members{/member}"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld/repos"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/orgs/cu-ecen-aeld"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "pusher",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "email",
+                      "v": "64434690+msamygawad@users.noreply.github.com"
+                    },
+                    {
+                      "k": "name",
+                      "v": "msamygawad"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/master"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": 1686341375.0
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": "assignments-3-and-later-msamygawad created by GitHub Classroom"
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "cu-ecen-aeld/assignments-3-and-later-msamygawad"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": null
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad"
+                    },
+                    {
+                      "k": "id",
+                      "v": 651684084.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "Shell"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "key",
+                            "v": "mit"
+                          },
+                          {
+                            "k": "name",
+                            "v": "MIT License"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDc6TGljZW5zZTEz"
+                          },
+                          {
+                            "k": "spdx_id",
+                            "v": "MIT"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/licenses/mit"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "master_branch",
+                      "v": "master"
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "assignments-3-and-later-msamygawad"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJtfo9A"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "organization",
+                      "v": "cu-ecen-aeld"
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/49594950?v=4"
+                          },
+                          {
+                            "k": "email",
+                            "v": null
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/cu-ecen-aeld"
+                          },
+                          {
+                            "k": "id",
+                            "v": 49594950.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "name",
+                            "v": "cu-ecen-aeld"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDEyOk9yZ2FuaXphdGlvbjQ5NTk0OTUw"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "Organization"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/cu-ecen-aeld"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": 1686489591.0
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 45.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:cu-ecen-aeld/assignments-3-and-later-msamygawad.git"
+                    },
+                    {
+                      "k": "stargazers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/cu-ecen-aeld/assignments-3-and-later-msamygawad/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-06-09T20:12:29Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/64434690?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/msamygawad/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/msamygawad/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/msamygawad/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/msamygawad/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/msamygawad"
+                    },
+                    {
+                      "k": "id",
+                      "v": 64434690.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "msamygawad"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjY0NDM0Njkw"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/msamygawad/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/msamygawad/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/msamygawad/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/msamygawad/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/msamygawad/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/msamygawad"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "master"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "cu-ecen-aeld/assignments-3-and-later-msamygawad/.github/workflows/github-actions.yml@refs/heads/master"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "a84ae5179c155224aebbe954ff8957a47d04d720"
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-06-11 13:20:14Z INFO JobRunner] Job ID a047640a-23da-5e9b-1ef8-917a09b3753a
+[2023-06-11 13:20:14Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/
+[2023-06-11 13:20:14Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin/Runner.Worker.dll
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux_/actions-runner
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_migrated'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_migrated
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:14Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:14Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.service'
+[2023-06-11 13:20:14Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.service
+[2023-06-11 13:20:14Z INFO ConfigurationStore] Read setting file: 309 chars
+[2023-06-11 13:20:14Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-11 13:20:14Z INFO Worker] Listening for cancel message from the channel.
+[2023-06-11 13:20:14Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-06-11 13:20:15Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-11 13:20:15Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f/timelines/d1b5ef82-bb1b-489f-a54c-7b9bd1364e2f/records/a047640a-23da-5e9b-1ef8-917a09b3753a/feedstream?api-version=6.0-preview
+[2023-06-11 13:20:15Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-06-11 13:20:15Z INFO JobServerQueue] Start process web console line queue.
+[2023-06-11 13:20:15Z INFO JobServerQueue] Start process file upload queue.
+[2023-06-11 13:20:15Z INFO JobServerQueue] Start results file upload queue.
+[2023-06-11 13:20:15Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-11 13:20:15Z INFO JobServerQueue] Start process timeline update queue.
+[2023-06-11 13:20:15Z INFO ExecutionContext] Initialize GitHub context
+[2023-06-11 13:20:15Z INFO ExecutionContext] Initialize Env context
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag'
+[2023-06-11 13:20:15Z INFO JobRunner] Starting the job execution context.
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO JobRunner] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_tool'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Temp': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_temp'
+[2023-06-11 13:20:15Z INFO JobRunner] Getting job extension.
+[2023-06-11 13:20:15Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known config file 'SetupInfo': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.setup_info'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO PipelineDirectoryManager] Loading tracking config if exists: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_PipelineMapping/cu-ecen-aeld/assignments-3-and-later-msamygawad/PipelineFolder.json
+[2023-06-11 13:20:15Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Tools': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_tool'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Externals': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/externals'
+[2023-06-11 13:20:15Z INFO JobExtension] Downloading actions
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:15Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_actions'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_actions'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Work': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work'
+[2023-06-11 13:20:16Z INFO HostContext] Well known directory 'Actions': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_actions'
+[2023-06-11 13:20:16Z INFO ActionManager] Save archive 'https://api.github.com/repos/actions/checkout/tarball/ee0669bd1cc54295c223e0bb666b733df41de1c5' into /home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_actions/_temp_8a2e7cf7-ee67-4dca-910d-6613ef575e5b/549477ef-de13-47d8-a4f7-74259034ec8d.tar.gz.
+[2023-06-11 13:20:16Z INFO JobServer] Successfully started websocket client.
+[2023-06-11 13:20:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '50324561-dddd-4bdb-907c-99dac6402daa', success rate: 1/1.
+[2023-06-11 13:20:16Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-06-11 13:20:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '50324561-dddd-4bdb-907c-99dac6402daa', success rate: 1/1.
+[2023-06-11 13:20:16Z INFO ProcessChannel] Receiving message of length 0, with hash 'e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855'
+[2023-06-11 13:20:16Z INFO Worker] Cancellation/Shutdown message received.
+[2023-06-11 13:20:17Z INFO ActionManager] Action download has been cancelled.
+[2023-06-11 13:20:17Z ERR  JobExtension] Caught cancellation exception from JobExtension Initialization: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at GitHub.Runner.Worker.ActionManager.DownloadRepositoryActionAsync(IExecutionContext executionContext, ActionDownloadInfo downloadInfo, String destDirectory)
+   at GitHub.Runner.Worker.ActionManager.DownloadRepositoryActionAsync(IExecutionContext executionContext, ActionDownloadInfo downloadInfo)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+[2023-06-11 13:20:17Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "50324561-dddd-4bdb-907c-99dac6402daa",
+  "result": "canceled",
+  "errorMessages": [
+    "A task was canceled."
+  ],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-06-11T13:20:15.7097519Z",
+  "finishTime": "2023-06-11T13:20:17.2811897Z"
+}.
+[2023-06-11 13:20:17Z ERR  JobRunner] Job is cancelled during initialize.
+[2023-06-11 13:20:17Z ERR  JobRunner] Caught exception: System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at GitHub.Runner.Worker.ActionManager.DownloadRepositoryActionAsync(IExecutionContext executionContext, ActionDownloadInfo downloadInfo, String destDirectory)
+   at GitHub.Runner.Worker.ActionManager.DownloadRepositoryActionAsync(IExecutionContext executionContext, ActionDownloadInfo downloadInfo)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsRecursiveAsync(IExecutionContext executionContext, PrepareActionsState state, IEnumerable`1 actions, Int32 depth, Guid parentStepId)
+   at GitHub.Runner.Worker.ActionManager.PrepareActionsAsync(IExecutionContext executionContext, IEnumerable`1 steps, Guid rootStepId)
+   at GitHub.Runner.Worker.JobExtension.InitializeJob(IExecutionContext jobContext, AgentJobRequestMessage message)
+   at GitHub.Runner.Worker.JobRunner.RunAsync(AgentJobRequestMessage message, CancellationToken jobRequestCancellationToken)
+[2023-06-11 13:20:17Z INFO JobRunner] Shutting down the job server queue.
+[2023-06-11 13:20:17Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-06-11 13:20:17Z INFO JobServerQueue] All queue process task stopped.
+[2023-06-11 13:20:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '50324561-dddd-4bdb-907c-99dac6402daa', success rate: 1/1.
+[2023-06-11 13:20:17Z INFO JobServerQueue] Web console line queue drained.
+[2023-06-11 13:20:17Z INFO JobServerQueue] Uploading 2 files in one shot.
+[2023-06-11 13:20:18Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2023-06-11 13:20:18Z INFO JobServerQueue] File upload queue drained.
+[2023-06-11 13:20:18Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-06-11 13:20:18Z INFO JobServerQueue] Results upload queue drained.
+[2023-06-11 13:20:18Z INFO JobServerQueue] Timeline update queue drained.
+[2023-06-11 13:20:18Z INFO JobServerQueue] Disposing job server ...
+[2023-06-11 13:20:18Z INFO JobServerQueue] Disposing results server ...
+[2023-06-11 13:20:18Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-06-11 13:20:18Z INFO TempDirectoryManager] Cleaning runner temp folder: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/_work/_temp
+[2023-06-11 13:20:18Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-11 13:20:18Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-11 13:20:18Z INFO HostContext] Well known directory 'Diag': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag'
+[2023-06-11 13:20:18Z INFO HostContext] Well known config file 'Telemetry': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/_diag/.telemetry'
+[2023-06-11 13:20:18Z INFO JobRunner] Raising job completed event

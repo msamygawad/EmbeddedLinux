@@ -1,0 +1,328 @@
+[2023-06-12 04:21:34Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner'
+[2023-06-12 04:21:34Z INFO Listener] Runner is built for Linux (X64) - linux-x64.
+[2023-06-12 04:21:34Z INFO Listener] RuntimeInformation: Linux 5.19.0-43-generic #44~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 22 13:39:36 UTC 2.
+[2023-06-12 04:21:34Z INFO Listener] Version: 2.304.0
+[2023-06-12 04:21:34Z INFO Listener] Commit: 9ef4121b5b31ee5c03b7770288213d741081f747
+[2023-06-12 04:21:34Z INFO Listener] Culture: en-US
+[2023-06-12 04:21:34Z INFO Listener] UI Culture: en-US
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO Listener] Validating directory permissions for: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO CommandLineParser] Parse
+[2023-06-12 04:21:34Z INFO CommandLineParser] Parsing 1 args
+[2023-06-12 04:21:34Z INFO CommandLineParser] parsing argument
+[2023-06-12 04:21:34Z INFO CommandLineParser] HasArgs: False
+[2023-06-12 04:21:34Z INFO CommandLineParser] Adding Command: run
+[2023-06-12 04:21:34Z INFO Listener] Arguments parsed
+[2023-06-12 04:21:34Z INFO Runner] ExecuteCommand
+[2023-06-12 04:21:34Z INFO ConfigurationStore] currentAssemblyLocation: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin/Runner.Listener.dll
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] binPath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] RootFolder: /home/msamy/Desktop/EmbeddedLinux_/actions-runner
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'Runner': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] ConfigFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.runner
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'Credentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] CredFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'MigratedCredentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_migrated'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] MigratedCredFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_migrated
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'Service': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.service'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] ServiceConfigFilePath: /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.service
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'help': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'version': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'check': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Command 'configure': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Command 'remove': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-06-12 04:21:34Z INFO ConfigurationManager] LoadSettings
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured()
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-12 04:21:34Z INFO ConfigurationManager] Is configured: True
+[2023-06-12 04:21:34Z INFO ConfigurationStore] Read setting file: 309 chars
+[2023-06-12 04:21:34Z INFO ConfigurationManager] Settings Loaded
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-12 04:21:34Z INFO CommandSettings] Command 'run': 'True'
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured()
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-12 04:21:34Z INFO ConfigurationManager] Is configured: True
+[2023-06-12 04:21:34Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-06-12 04:21:34Z INFO Runner] Set runner startup type - Manual
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-12 04:21:34Z INFO CommandSettings] Flag 'once': 'False'
+[2023-06-12 04:21:34Z INFO Runner] RunAsync
+[2023-06-12 04:21:34Z INFO ConfigurationManager] LoadSettings
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured()
+[2023-06-12 04:21:34Z INFO ConfigurationStore] IsConfigured: True
+[2023-06-12 04:21:34Z INFO ConfigurationManager] Is configured: True
+[2023-06-12 04:21:34Z INFO ConfigurationManager] Settings Loaded
+[2023-06-12 04:21:34Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "msamy",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc",
+  "GitHubUrl": "https://github.com/cu-ecen-aeld/assignments-3-and-later-msamygawad",
+  "WorkFolder": "_work"
+}
+[2023-06-12 04:21:34Z INFO MessageListener] Loading Credentials
+[2023-06-12 04:21:34Z INFO ConfigurationStore] HasCredentials()
+[2023-06-12 04:21:34Z INFO ConfigurationStore] stored True
+[2023-06-12 04:21:34Z INFO CredentialManager] GetCredentialProvider
+[2023-06-12 04:21:34Z INFO CredentialManager] Creating type OAuth
+[2023-06-12 04:21:34Z INFO CredentialManager] Creating credential type: OAuth
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:34Z INFO HostContext] Well known directory 'Root': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner'
+[2023-06-12 04:21:34Z INFO HostContext] Well known config file 'RSACredentials': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams'
+[2023-06-12 04:21:34Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 04:21:34Z INFO MessageListener] Attempt to create session.
+[2023-06-12 04:21:34Z INFO MessageListener] Connecting to the Runner Server...
+[2023-06-12 04:21:34Z INFO RunnerServer] EstablishVssConnection
+[2023-06-12 04:21:34Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-06-12 04:21:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-12 04:21:35Z INFO RunnerServer] EstablishVssConnection
+[2023-06-12 04:21:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-12 04:21:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-12 04:21:35Z INFO RunnerServer] EstablishVssConnection
+[2023-06-12 04:21:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-12 04:21:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-12 04:21:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-12 04:21:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-12 04:21:36Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-12 04:21:36Z INFO MessageListener] VssConnection created
+[2023-06-12 04:21:36Z INFO Terminal] WRITE LINE: 
+[2023-06-12 04:21:36Z INFO Terminal] WRITE LINE: 
+[2023-06-12 04:21:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 04:21:37Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 04:21:37Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-12 04:21:38Z INFO MessageListener] Session created.
+[2023-06-12 04:21:38Z INFO Terminal] WRITE LINE: Current runner version: '2.304.0'
+[2023-06-12 04:21:38Z INFO Terminal] WRITE LINE: 2023-06-12 04:21:38Z: Listening for Jobs
+[2023-06-12 04:21:38Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-06-12 04:21:42Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 04:21:42Z INFO MessageListener] Message '6' received from session '7daa6538-6dfa-4272-9a72-93ab23131ed5'.
+[2023-06-12 04:21:42Z INFO Runner] Received job message of length 23699 from service, with hash '2659b0e94a627425a6dd6d1e18a8a8e1a5349248f3d2e932264d357d37e2a5b9'
+[2023-06-12 04:21:42Z INFO JobDispatcher] Job request 7 for plan 0c4ee4ac-296c-44d2-aa55-804ca5b2ad94 job a047640a-23da-5e9b-1ef8-917a09b3753a received.
+[2023-06-12 04:21:42Z INFO JobDispatcher] Pull OrchestrationId 0c4ee4ac-296c-44d2-aa55-804ca5b2ad94.full-test.__default from JWT claims
+[2023-06-12 04:21:42Z INFO Terminal] WRITE LINE: 2023-06-12 04:21:42Z: Running job: full-test
+[2023-06-12 04:21:42Z INFO JobDispatcher] Start renew job request 7 for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-12 04:21:42Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:31:42 AM
+[2023-06-12 04:21:42Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin/Runner.Worker'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 105 108'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-12 04:21:42Z INFO ProcessInvokerWrapper] Process started with process id 614090, waiting for process exit.
+[2023-06-12 04:21:42Z INFO JobDispatcher] Send job request message to worker for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-12 04:21:42Z INFO ProcessChannel] Sending message of length 23699, with hash '2659b0e94a627425a6dd6d1e18a8a8e1a5349248f3d2e932264d357d37e2a5b9'
+[2023-06-12 04:21:42Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-12 04:21:42Z INFO JobNotification] Entering StartMonitor
+[2023-06-12 04:22:42Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:32:42 AM
+[2023-06-12 04:23:42Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:33:42 AM
+[2023-06-12 04:24:43Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:34:42 AM
+[2023-06-12 04:25:43Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:35:43 AM
+[2023-06-12 04:26:46Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:36:43 AM
+[2023-06-12 04:27:46Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:37:46 AM
+[2023-06-12 04:28:46Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:38:46 AM
+[2023-06-12 04:29:47Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:39:47 AM
+[2023-06-12 04:30:47Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:40:47 AM
+[2023-06-12 04:31:47Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:41:47 AM
+[2023-06-12 04:32:47Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:42:47 AM
+[2023-06-12 04:33:48Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 6/12/2023 4:43:47 AM
+[2023-06-12 04:34:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-12 04:34:05Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-12 04:34:05Z INFO ProcessInvokerWrapper] Finished process 614090 with exit code 100, and elapsed time 00:12:22.7642618.
+[2023-06-12 04:34:05Z INFO JobDispatcher] Worker finished for job a047640a-23da-5e9b-1ef8-917a09b3753a. Code: 100
+[2023-06-12 04:34:05Z INFO JobDispatcher] finish job request for job a047640a-23da-5e9b-1ef8-917a09b3753a with result: Succeeded
+[2023-06-12 04:34:05Z INFO Terminal] WRITE LINE: 2023-06-12 04:34:05Z: Job full-test completed with result: Succeeded
+[2023-06-12 04:34:05Z INFO JobDispatcher] Stop renew job request for job a047640a-23da-5e9b-1ef8-917a09b3753a.
+[2023-06-12 04:34:05Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 7.
+[2023-06-12 04:34:05Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-12 04:34:05Z INFO JobNotification] Entering EndMonitor
+[2023-06-12 04:34:07Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 04:34:07Z INFO MessageListener] Message '7' received from session '7daa6538-6dfa-4272-9a72-93ab23131ed5'.
+[2023-06-12 04:34:07Z INFO Runner] Received job message of length 23697 from service, with hash '5eb04d960011cb1aadcea9b5bb411a00be9772ee79ee51d3a898c83145eaf2cf'
+[2023-06-12 04:34:07Z INFO JobDispatcher] Job request 8 for plan 0c4ee4ac-296c-44d2-aa55-804ca5b2ad94 job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 received.
+[2023-06-12 04:34:07Z INFO JobDispatcher] Pull OrchestrationId 0c4ee4ac-296c-44d2-aa55-804ca5b2ad94.unit-test.__default from JWT claims
+[2023-06-12 04:34:07Z INFO JobDispatcher] Job request a047640a-23da-5e9b-1ef8-917a09b3753a processed succeed.
+[2023-06-12 04:34:07Z INFO Terminal] WRITE LINE: 2023-06-12 04:34:07Z: Running job: unit-test
+[2023-06-12 04:34:07Z INFO JobDispatcher] Start renew job request 8 for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-12 04:34:07Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 6/12/2023 4:44:07 AM
+[2023-06-12 04:34:07Z INFO HostContext] Well known directory 'Bin': '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper] Starting process:
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   File name: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin/Runner.Worker'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 90 115'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Working directory: '/home/msamy/Desktop/EmbeddedLinux_/actions-runner/bin'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-06-12 04:34:07Z INFO ProcessInvokerWrapper] Process started with process id 706679, waiting for process exit.
+[2023-06-12 04:34:07Z INFO JobDispatcher] Send job request message to worker for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-12 04:34:07Z INFO ProcessChannel] Sending message of length 23697, with hash '5eb04d960011cb1aadcea9b5bb411a00be9772ee79ee51d3a898c83145eaf2cf'
+[2023-06-12 04:34:07Z INFO JobNotification] Entering JobStarted Notification
+[2023-06-12 04:34:07Z INFO JobNotification] Entering StartMonitor
+[2023-06-12 04:34:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-12 04:34:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-06-12 04:34:19Z INFO ProcessInvokerWrapper] Finished process 706679 with exit code 100, and elapsed time 00:00:11.8619574.
+[2023-06-12 04:34:19Z INFO JobDispatcher] Worker finished for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171. Code: 100
+[2023-06-12 04:34:19Z INFO JobDispatcher] finish job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 with result: Succeeded
+[2023-06-12 04:34:19Z INFO Terminal] WRITE LINE: 2023-06-12 04:34:19Z: Job unit-test completed with result: Succeeded
+[2023-06-12 04:34:19Z INFO JobDispatcher] Stop renew job request for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171.
+[2023-06-12 04:34:19Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 8.
+[2023-06-12 04:34:19Z INFO JobNotification] Entering JobCompleted Notification
+[2023-06-12 04:34:19Z INFO JobNotification] Entering EndMonitor
+[2023-06-12 12:52:27Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 timed out after 60 seconds.
+[2023-06-12 12:52:27Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-12 12:52:27Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-12 12:52:27Z ERR  MessageListener] #####################################################
+[2023-06-12 12:52:27Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-06-12 12:52:27Z ERR  MessageListener] #####################################################
+[2023-06-12 12:52:27Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Operation canceled.
+ ---> System.Net.Sockets.SocketException (125): Operation canceled
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-06-12 12:52:27Z ERR  MessageListener] #####################################################
+[2023-06-12 12:52:27Z ERR  MessageListener] System.Net.Sockets.SocketException (125): Operation canceled
+[2023-06-12 12:52:27Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-06-12 12:52:27Z ERR  Terminal] WRITE ERROR: 2023-06-12 12:52:27Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-06-12 12:52:27Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-12 12:52:27Z INFO RunnerServer] EstablishVssConnection
+[2023-06-12 12:52:27Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-12 12:52:27Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-12 12:52:28Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-12 12:52:28Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-06-12 12:52:54Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 12:52:56Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-12 12:53:46Z INFO Terminal] WRITE LINE: 2023-06-12 12:53:46Z: Runner reconnected.
+[2023-06-12 12:59:37Z INFO MessageListener] No message retrieved from session '7daa6538-6dfa-4272-9a72-93ab23131ed5' within last 30 minutes.
+[2023-06-12 13:29:49Z INFO MessageListener] No message retrieved from session '7daa6538-6dfa-4272-9a72-93ab23131ed5' within last 30 minutes.
+[2023-06-12 13:48:20Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 13:48:20Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-12 14:00:05Z INFO MessageListener] No message retrieved from session '7daa6538-6dfa-4272-9a72-93ab23131ed5' within last 30 minutes.
+[2023-06-12 14:13:27Z WARN GitHubActionsService] Attempt 1 of GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 failed (Socket Error: ConnectionReset). The operation will be retried in 10.848 seconds.
+[2023-06-12 14:13:38Z WARN GitHubActionsService] Attempt 2 of GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 failed (Socket Error: TryAgain). The operation will be retried in 13.354 seconds.
+[2023-06-12 14:14:12Z WARN GitHubActionsService] Attempt 3 of GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 failed (Socket Error: TryAgain). The operation will be retried in 16.202 seconds.
+[2023-06-12 14:14:35Z ERR  GitHubActionsService] Attempt 4 of GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 failed (Socket Error: ConnectionReset). The maximum number of attempts has been reached.
+[2023-06-12 14:14:35Z ERR  MessageListener] Catch exception during get next message.
+[2023-06-12 14:14:35Z ERR  MessageListener] System.Net.Http.HttpRequestException: The SSL connection could not be established, see inner exception.
+ ---> System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-06-12 14:14:35Z ERR  MessageListener] #####################################################
+[2023-06-12 14:14:35Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: Connection reset by peer.
+ ---> System.Net.Sockets.SocketException (104): Connection reset by peer
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Http.ConnectHelper.EstablishSslConnectionAsync(SslClientAuthenticationOptions sslOptions, HttpRequestMessage request, Boolean async, Stream stream, CancellationToken cancellationToken)
+[2023-06-12 14:14:35Z ERR  MessageListener] #####################################################
+[2023-06-12 14:14:35Z ERR  MessageListener] System.Net.Sockets.SocketException (104): Connection reset by peer
+[2023-06-12 14:14:35Z INFO MessageListener] Retriable exception: The SSL connection could not be established, see inner exception.
+[2023-06-12 14:14:35Z ERR  Terminal] WRITE ERROR: 2023-06-12 14:14:35Z: Runner connect error: The SSL connection could not be established, see inner exception.. Retrying until reconnected.
+[2023-06-12 14:14:35Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-06-12 14:14:35Z INFO RunnerServer] EstablishVssConnection
+[2023-06-12 14:14:35Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-06-12 14:14:35Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-06-12 14:14:54Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-06-12 14:14:54Z INFO MessageListener] Sleeping for 28.273 seconds before retrying.
+[2023-06-12 14:16:13Z INFO Terminal] WRITE LINE: 2023-06-12 14:16:13Z: Runner reconnected.
+[2023-06-12 14:30:27Z INFO MessageListener] No message retrieved from session '7daa6538-6dfa-4272-9a72-93ab23131ed5' within last 30 minutes.
+[2023-06-12 14:43:51Z INFO RSAFileKeyManager] Loading RSA key parameters from file /home/msamy/Desktop/EmbeddedLinux_/actions-runner/.credentials_rsaparams
+[2023-06-12 14:43:52Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-06-12 15:00:37Z INFO MessageListener] No message retrieved from session '7daa6538-6dfa-4272-9a72-93ab23131ed5' within last 30 minutes.
+[2023-06-12 15:15:45Z INFO Terminal] WRITE LINE: Exiting...
+[2023-06-12 15:15:45Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-06-12 15:15:45Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-06-12 15:15:45Z INFO HostContext] Runner will be shutdown for UserCancelled
+[2023-06-12 15:15:45Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/vrzNwWaiRVgeEbDIcDQqClbRd8EwWjt6xzrXxAG9QBQekgeYFc/_apis/distributedtask/pools/1/messages?sessionId=7daa6538-6dfa-4272-9a72-93ab23131ed5&lastMessageId=7&status=Online&runnerVersion=2.304.0 has been cancelled.
+[2023-06-12 15:15:45Z INFO MessageListener] Get next message has been cancelled.
+[2023-06-12 15:15:45Z INFO JobDispatcher] Shutting down JobDispatcher. Make sure all WorkerDispatcher has finished.
+[2023-06-12 15:15:45Z INFO JobDispatcher] Ensure WorkerDispather for job 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 run to finish, cancel any running job.
+[2023-06-12 15:15:45Z INFO JobDispatcher] Job request 0e10f8dd-85b5-5bee-19c6-47fc7db6f171 processed succeed.
+[2023-06-12 15:15:46Z INFO Listener] Runner execution been cancelled.
